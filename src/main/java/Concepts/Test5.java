@@ -1,4 +1,4 @@
-package org.example;
+package Concepts;
 
 public class Test5 {
     public static void main(String[] args) {
@@ -13,3 +13,9 @@ public class Test5 {
 
     }
 }
+
+/*
+set1.addAll(set2);      // Union
+set1.retainAll(set2);   // Intersection
+set1.removeAll(set2);   // Difference
+ */

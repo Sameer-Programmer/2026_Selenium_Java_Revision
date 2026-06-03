@@ -2,7 +2,7 @@ package PracticeZone_Arrays;
 
 import java.util.Arrays;
 
-public class Test9 {
+public class Test9_MoveZerostoEnd {
     static void main(String[] args) {
         int [] arr = {1,1,2,3,4,5,6,7,8,9,0,0,2,3,4};
         int index = 0 ;

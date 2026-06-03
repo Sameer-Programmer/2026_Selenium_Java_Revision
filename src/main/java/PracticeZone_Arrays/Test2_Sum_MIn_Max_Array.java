@@ -1,6 +1,6 @@
 package PracticeZone_Arrays;
 
-public class Test2_MIn_Max_Array {
+public class Test2_Sum_MIn_Max_Array {
     static void main(String[] args) {
         int [] arr = {1,2,3,4,5,6,7,8,9,0};
         int min = arr[0];

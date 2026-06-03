@@ -1,12 +1,19 @@
 package ArrayProblems;
 import java.util.Arrays;
 
+
+/*
+Given -=  {1,2,3,4,5,6,7,8,9,0};
+Expected = [9, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+
+ */
+
 // step 1 -> {1,2,3,4,5,6,7,8,9,0};
 //Expected ---> 9,0, 1,2,3,4,5,6,7,8
 // step 2 -> [0, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 // step 3 --> 9,0 -->
 
-public class Test11 {
+public class Test11_RightRotation {
     static void main(String[] args) {
         int[] arr = {1,2,3,4,5,6,7,8,9,0};
             int k = 2;
@@ -47,3 +54,9 @@ public class Test11 {
         System.out.println(Arrays.toString(arr));
     }
 }
+/*
+
+Step1 = Reverse the whole Array
+Step2 = left = 0 , right = k%arr.length -1
+step 3 = left = K , right = arr.length-1
+ */

@@ -1,4 +1,4 @@
-package org.example;
+package Concepts;
 
 public class Vehicle {
     protected String colour;

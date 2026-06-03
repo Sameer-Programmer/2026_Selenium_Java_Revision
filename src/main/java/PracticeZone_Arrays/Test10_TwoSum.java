@@ -1,6 +1,6 @@
 package PracticeZone_Arrays;
 
-public class Test10 {
+public class Test10_TwoSum {
     static void main(String[] args) {
    //Two Sum
         int [] arr = {1,1,2,3,4,5,6,7,8,9,0,0,2,3,4};

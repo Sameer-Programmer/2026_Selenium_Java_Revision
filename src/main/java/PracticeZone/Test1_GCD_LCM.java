@@ -1,6 +1,6 @@
 package PracticeZone;
 
-public class Test1 {
+public class Test1_GCD_LCM {
     static void main(String[] args) {
         //gcd
         int num1 = 10;

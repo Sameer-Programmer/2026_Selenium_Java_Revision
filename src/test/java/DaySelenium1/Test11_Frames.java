@@ -14,7 +14,7 @@ import java.time.Duration;
 //        driver.switchTo().frame(index)
  */
 
-public class Test11 {
+public class Test11_Frames {
     static void main(String[] args) throws InterruptedException {
         String url = "https://demo.automationtesting.in/Frames.html";
         WebDriver driver = new ChromeDriver();

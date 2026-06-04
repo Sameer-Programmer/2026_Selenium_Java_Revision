@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Test3_ConditionalMethods_OR_BooleanMethods {
+public class Test3_Cond__WebElement_BooleanMethods {
     static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
         driver.get("https://testautomationpractice.blogspot.com/");

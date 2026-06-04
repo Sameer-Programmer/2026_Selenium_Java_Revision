@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class Test6 {
+public class Test6_NavigateAndGetMethods {
     static void main(String[] args) throws MalformedURLException, InterruptedException {
         WebDriver driver = new ChromeDriver();
         driver.manage().deleteAllCookies();

@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 import java.util.List;
 
-public class Test14_AutoSuggestionDropdown {
+public class Test14_AutoSuggDropdown {
     static void main(String[] args){
         String url ="https://www.amazon.in/";
         WebDriver driver = new ChromeDriver();
@@ -23,7 +23,6 @@ public class Test14_AutoSuggestionDropdown {
         System.out.println(list.size());
         for(WebElement element :list){
             System.out.println(element.getText());
-
             status =  element.getText().contains("mobiles 5+g");
         }
         System.out.println(status);

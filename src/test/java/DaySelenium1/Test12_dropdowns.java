@@ -43,10 +43,22 @@ public class Test12_dropdowns {
 
 
         List<WebElement> options =select.getOptions();
+        System.out.println(options.size());
 
         for(WebElement option:options){
             System.out.println(option.getText());
         }
+
+
+        // MultiSelectDropdowns
+
+        WebElement coloursdropdown = driver.findElement(By.xpath("//select[@id=\"colors\"]"));
+        Select selectcolours = new Select(coloursdropdown);
+        selectcolours.selectByValue("red");
+        selectcolours.selectByValue("blue");
+
+        Thread.sleep(3000);
+
 
 
        driver.quit();

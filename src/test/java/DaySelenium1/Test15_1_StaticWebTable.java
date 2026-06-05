@@ -26,7 +26,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 import java.util.List;
 
-public class Test15_StaticWebTable {
+public class Test15_1_StaticWebTable {
     static void main(String[] args) {
         String url = "https://testautomationpractice.blogspot.com/";
         WebDriver driver = new ChromeDriver();

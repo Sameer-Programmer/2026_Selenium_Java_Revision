@@ -25,10 +25,8 @@ public class Test2_driverMethods {
         String CurrentUrl =driver.getCurrentUrl();
         System.out.println(CurrentUrl);
         driver.findElement(By.linkText("OrangeHRM, Inc")).click();
-       Set<String> windowIds= driver.getWindowHandles();
+        Set<String> windowIds= driver.getWindowHandles();
         System.out.println(windowIds);
-
-
         driver.close();
         driver.quit();
 

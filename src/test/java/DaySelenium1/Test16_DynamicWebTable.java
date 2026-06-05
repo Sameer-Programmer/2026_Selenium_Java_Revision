@@ -48,13 +48,7 @@ public class Test16_DynamicWebTable {
          }
        }
 
-
-
-
-
-
-
-    driver.close();
+        driver.close();
        driver.quit();
 
     }

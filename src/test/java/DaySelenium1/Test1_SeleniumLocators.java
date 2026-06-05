@@ -29,17 +29,12 @@ public class Test1_SeleniumLocators {
         for(WebElement k :dropdowns){
             System.out.println(k.getText());
         }
-
        List<WebElement> links=driver.findElements(By.tagName("a"));
         System.out.println("Size of Links :"+links.size());
 
         for(int i =0 ; i<links.size(); i++){
             System.out.println(i+":"+links.get(i).getText());
         }
-
-
-
-
         // img
         List<WebElement> totalimages=driver.findElements(By.tagName("img"));
         int allimages=totalimages.size();
@@ -48,8 +43,6 @@ public class Test1_SeleniumLocators {
         for(WebElement image:totalimages){
             System.out.println(image.getText());  // this one will get the LInk text Right
         }
-
-
         Thread.sleep(3000);
         driver.close();
         driver.quit();

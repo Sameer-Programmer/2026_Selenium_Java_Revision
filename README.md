@@ -1,8 +1,8 @@
-# Ymg_18_May_26: Java Programming and Selenium Practice Repository
+# 2026 Selenium Java Revision: Comprehensive Practice Repository
 
 ## Overview
 
-This repository, `Ymg_18_May_26`, serves as a comprehensive collection of Java programming exercises and Selenium WebDriver automation scripts. It is designed for individuals looking to practice and enhance their skills in core Java concepts, data structures (specifically arrays), mathematical problem-solving, and web automation using Selenium with TestNG.
+This repository, now titled `2026 Selenium Java Revision`, serves as a comprehensive collection of Java programming exercises and Selenium WebDriver automation scripts. It is designed for individuals looking to practice and enhance their skills in core Java concepts, data structures (specifically arrays), mathematical problem-solving, and web automation using Selenium with TestNG. This revision aims to provide up-to-date practices and examples for Java and Selenium.
 
 ## Features
 
@@ -25,7 +25,7 @@ This repository, `Ymg_18_May_26`, serves as a comprehensive collection of Java p
 The project follows a standard Maven directory structure:
 
 ```
-Ymg_18_May_26/
+2026_Selenium_Java_Revision/
 ├── pom.xml
 └── src/
     ├── main/
@@ -59,8 +59,8 @@ To get a local copy up and running, follow these simple steps.
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/Sameer-Programmer/Ymg_18_May_26
-    cd Ymg_18_May_26
+    git clone https://github.com/Sameer-Programmer/2026_Selenium_Java_Revision
+    cd 2026_Selenium_Java_Revision
     ```
 
 2.  **Build the project with Maven**:
@@ -95,4 +95,4 @@ Distributed under the MIT License. See `LICENSE` for more information. (Note: A 
 
 Sameer Programmer - [GitHub Profile](https://github.com/Sameer-Programmer)
 
-Project Link: [https://github.com/Sameer-Programmer/Ymg_18_May_26](https://github.com/Sameer-Programmer/Ymg_18_May_26)
+Project Link: [https://github.com/Sameer-Programmer/2026_Selenium_Java_Revision](https://github.com/Sameer-Programmer/2026_Selenium_Java_Revision)

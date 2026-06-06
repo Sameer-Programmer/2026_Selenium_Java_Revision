@@ -13,7 +13,6 @@ public class Test17_WebTable_Checkbox {
 
         String url = "https://testautomationpractice.blogspot.com/";
         WebDriver driver = new ChromeDriver();
-
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
         driver.manage().window().maximize();
         driver.get(url);

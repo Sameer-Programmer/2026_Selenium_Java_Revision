@@ -25,7 +25,7 @@ import org.openqa.selenium.support.ui.Select;
 import java.time.Duration;
 import java.util.List;
 
-public class Test12_dropdowns {
+public class Test12_Dropdowns {
     static void main(String[] args) throws InterruptedException {
         String url = "https://testautomationpractice.blogspot.com/";
         WebDriver driver = new ChromeDriver();

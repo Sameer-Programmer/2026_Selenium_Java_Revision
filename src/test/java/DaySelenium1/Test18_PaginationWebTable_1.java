@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 import java.time.Duration;
 import java.util.List;
 
-public class Test18_PaginationWebTable {
+public class Test18_PaginationWebTable_1 {
     static void main(String[] args){
         /*
                 Sc-1 - count Total Rows and validate the count with dropdown

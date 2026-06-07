@@ -2,7 +2,7 @@ package ArraysConcept;
 
 import java.util.Arrays;
 
-public class Test1_SingleDimensionalArray {
+public class Test1_SingleDimensionalArray_1 {
     static void main(String[] args){
         int [] arr = {11,2,3,4,5,6,7,8,9};
         System.out.println(arr.length); //-- Findlength

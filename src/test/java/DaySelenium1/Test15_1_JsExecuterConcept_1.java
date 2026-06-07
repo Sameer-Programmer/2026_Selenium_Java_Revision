@@ -21,7 +21,7 @@ we can scroll up to end
 
  */
 
-public class Test15_JavaScriptExecuterConcept {
+public class Test15_1_JsExecuterConcept_1 {
     static void main(String[] args) throws InterruptedException {
         String url =  "https://in.trip.com/";
         WebDriver driver = new ChromeDriver();

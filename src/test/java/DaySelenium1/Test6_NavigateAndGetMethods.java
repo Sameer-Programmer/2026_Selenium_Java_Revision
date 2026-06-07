@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-
+// Yes, in your code all navigation actions happen in the same browser tab.
 public class Test6_NavigateAndGetMethods {
     static void main(String[] args) throws MalformedURLException, InterruptedException {
         WebDriver driver = new ChromeDriver();

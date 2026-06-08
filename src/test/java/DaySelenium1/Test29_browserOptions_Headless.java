@@ -6,12 +6,13 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.time.Duration;
 
-public class Test29_browserOptions {
+public class Test29_browserOptions_Headless {
     static void main(String[] args){
 
         /*
         //Options class
        by Uing these Option class we can controll  Settings of the browser
+       // Headless Testing execution will be Faster
          */
         String url = "https://testautomationpractice.blogspot.com/#";
         ChromeOptions options = new ChromeOptions();

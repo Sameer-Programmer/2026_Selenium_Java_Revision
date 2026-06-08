@@ -1,4 +1,14 @@
 package StringsConcept;
 
+/*
+SplitMethod - we can split based on the Charater
+ */
+
 public class Basics_3 {
+    static void main(String[] args){
+        String s1 = "sameeridea7@gmail.com";
+        String[] arr = s1.split("@");
+        System.out.println(arr[0]);
+        System.out.println(arr[1]);
+    }
 }

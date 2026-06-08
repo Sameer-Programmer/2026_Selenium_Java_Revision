@@ -1,15 +1,17 @@
 package StringsConcept;
 
-public class Test1 {
+public class Basics1 {
     static void main(String[] args){
         // String is a Predeined Class
         // Declaration
         // Length
+        // toUpperCase()
+        // toLowerCase()
         // concatination - + or concat()
         // trim()
         //charAt()
         // contains -- sequence of string is Impotant
-        // ==
+        // ==  // verfoies the variable is refereing to same object
         // equals()
         // replace('given','expected') // singlr
         // replace("given","expected") // Multiple
@@ -21,6 +23,8 @@ public class Test1 {
         System.out.println(str+str2);
         System.out.println(str.concat("Peera  "));
         String s4 = str.concat("Shaik    ");
+        System.out.println(str.toLowerCase()+"    LowerCase");
+        System.out.println(str.toUpperCase()+"     UpperCase");
         System.out.println(s4.trim());
 
         String s1 = "Sameer";

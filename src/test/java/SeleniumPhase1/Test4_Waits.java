@@ -29,7 +29,6 @@ public class Test4_Waits {
         Thread.sleep(10000);
         // if it is not visible under 10 seconds What will Happen
         linkOrangeHRM.click();
-
         driver.close();
         driver.quit();
 

@@ -17,6 +17,9 @@ public class Test7_WindowHandles {
         driver.manage().window().maximize();
         driver.get(url);
         driver.findElement(By.linkText("OrangeHRM, Inc")).click();
+
+        // set dont have the way of accessing the string from the index so we add into List to access from the index
+
         Set<String> windowIds=  driver.getWindowHandles();
         ArrayList<String> arrayList = new ArrayList<>(windowIds);
         System.out.println(arrayList.size());

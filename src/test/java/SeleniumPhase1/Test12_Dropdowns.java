@@ -38,7 +38,6 @@ public class Test12_Dropdowns {
         select.selectByIndex(2);
 
         select.selectByValue("germany");
-
         select.selectByVisibleText("Canada");
 
 

@@ -11,7 +11,7 @@ public class Test29_browserOptions_Headless {
 
         /*
         //Options class
-       by Uing these Option class we can controll  Settings of the browser
+       by Using these Option class we can controll  Settings of the browser
        // Headless Testing execution will be Faster
          */
         String url = "https://testautomationpractice.blogspot.com/#";

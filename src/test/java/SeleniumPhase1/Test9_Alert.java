@@ -1,4 +1,4 @@
-package DaySelenium1;
+package SeleniumPhase1;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;

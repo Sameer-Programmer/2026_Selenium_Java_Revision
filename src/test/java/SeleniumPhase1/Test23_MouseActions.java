@@ -1,4 +1,4 @@
-package DaySelenium1;
+package SeleniumPhase1;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,7 +7,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.interactions.Action;
 
-import javax.swing.*;
 import java.time.Duration;
 
 public class Test23_MouseActions {

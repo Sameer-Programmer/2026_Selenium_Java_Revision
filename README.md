@@ -52,7 +52,7 @@ The project adheres to a standard Maven directory structure, facilitating easy n
 │   │       └── StringsConcept/            # Fundamental string concepts and manipulations
 │   └── test/
 │       └── java/
-│           ├── DaySelenium1/              # Comprehensive Selenium WebDriver test cases with TestNG
+│           ├── SeleniumPhase1/              # Comprehensive Selenium WebDriver test cases with TestNG
 │           └── Sameer_Fun/                # Additional Selenium WebDriver test cases and exercises
 ├── FilesToTest/                     # Sample files used for testing purposes (e.g., Doctor.pdf, Patient.txt)
 └── Screenshots/                     # Screenshots captured during test execution (e.g., File1.png, TablePage.png)
@@ -62,7 +62,7 @@ The project adheres to a standard Maven directory structure, facilitating easy n
 
 This section provides a detailed summary of the Selenium test cases found in the `src/test/java` directory, categorized by their respective packages.
 
-### DaySelenium1
+### SeleniumPhase1
 
 | Test File | Description |
 | :--- | :--- |
@@ -135,7 +135,7 @@ Ensure you have the following software installed on your system:
 ## Usage
 
 -   **Java Practice**: Explore the `src/main/java` directory to delve into various Java concept implementations and problem solutions. Each sub-directory is organized by topic for easy learning.
--   **Selenium Tests**: The Selenium test cases are located under `src/test/java/DaySelenium1` and `src/test/java/Sameer_Fun`. You can execute these tests using your IDE or via Maven from the command line:
+-   **Selenium Tests**: The Selenium test cases are located under `src/test/java/SeleniumPhase1` and `src/test/java/Sameer_Fun`. You can execute these tests using your IDE or via Maven from the command line:
     ```bash
     mvn test
     ```

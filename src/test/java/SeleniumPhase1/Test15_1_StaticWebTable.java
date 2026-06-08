@@ -1,4 +1,4 @@
-package DaySelenium1;
+package SeleniumPhase1;
 
 /*
 WebTables

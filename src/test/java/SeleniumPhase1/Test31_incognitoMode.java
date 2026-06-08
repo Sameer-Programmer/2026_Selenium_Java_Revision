@@ -1,4 +1,4 @@
-package DaySelenium1;
+package SeleniumPhase1;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.time.Duration;
 
-public class Test31_incgnitoMode {
+public class Test31_incognitoMode {
     static void main(String[] args) throws InterruptedException {
         String url = "https://testautomationpractice.blogspot.com/#";
         ChromeOptions options = new ChromeOptions();

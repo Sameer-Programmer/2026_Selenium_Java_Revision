@@ -91,6 +91,9 @@ This section provides a detailed summary of the Selenium test cases found in the
 | **Test21_DatePicker_1.java** | Shows how to interact with a date picker to select a specific date by navigating through months and years. |
 | **Test22_DatePicker2.java** | Another example of handling a date picker, specifically for a travel website, to select check-in dates. |
 | **Test23_MouseActions.java** | Covers various mouse actions using the `Actions` class, including `moveToElement()`, `doubleClick()`, and `dragAndDrop()`. |
+| **Test24_SliderActions.java** | Demonstrates handling slider elements using the `Actions` class to interact with range sliders. |
+| **Test15_1_JsExecuterConcept_1.java** | Explores JavaScript Executor for performing actions like clicking elements, sending text, and various scrolling techniques (by pixels, to element, to end of page). |
+| **Test15_1_JsExecuterConcept_2.java** | Provides additional examples of using JavaScript Executor for scrolling and clicking specific web elements. |
 | **Test25_FileUploads.java** | Demonstrates how to handle file upload scenarios using Selenium WebDriver. |
 | **Test26_MultipleFiles.java** | Provides examples for uploading multiple files simultaneously. |
 | **Test27_KeyBoardActions.java** | Illustrates various keyboard actions using the `Actions` class, such as pressing keys and key combinations. |

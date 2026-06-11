@@ -20,10 +20,11 @@ public class Test23_MouseActions {
         Actions action = new Actions(driver);
         WebElement Desktop = driver.findElement(By.linkText("Desktops"));
         WebElement PC = driver.findElement(By.xpath("//li/a[normalize-space()='PC (0)']"));
-//        action.moveToElement(Desktop).moveToElement(PC)
-//                .click()
-//                .build().
-//                perform();
+        action.moveToElement(Desktop).moveToElement(PC)
+                .click()
+                .build().
+                perform();
+        System.out.println("Done");
 
 
       //  By the Action interfcae
@@ -33,8 +34,8 @@ Stores a built action before execution.
 Created using the build() method of the Actions class.
 Allows execution later using perform().
          */
-        Action ac  = action.moveToElement(Desktop).build();
-        ac.perform();
+//        Action ac  = action.moveToElement(Desktop).build();
+//        ac.perform();
 
 
         WebElement phonesAndPDAs =
@@ -57,7 +58,7 @@ Allows execution later using perform().
 
 
 
-        // driver.quit();
+         driver.quit();
 
 
 //        action.moveToElement().perform

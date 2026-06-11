@@ -11,7 +11,7 @@ import java.net.URL;
 import java.time.Duration;
 import java.util.List;
 
-public class Test3 {
+public class Test3_BrokenLinks {
     static void main(String[] args) throws IOException {
         String url = "https://testautomationpractice.blogspot.com/";
         WebDriver driver = new ChromeDriver();

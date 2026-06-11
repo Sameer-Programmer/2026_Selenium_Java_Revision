@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="Suite1_GroupingSuit">
+ <test name="myTest_Gruoups">
+     <groups>
+         <run>
+             <include name="Sanity"></include>
+             <exclude name="Regression"></exclude>
+         </run>
+     </groups>
+    <classes>
+        <class name="Selenium_Java_TestNG.Test7_Groups_1" ></class>
+        <class name="Selenium_Java_TestNG.Test8_Groups_2" ></class>
+        <class name="Selenium_Java_TestNG.Test9_Groups_3" ></class>
+    </classes>
+ </test>
+</suite>
+
+        <!--
+
+          <include name="Sanity"></include>   only sanity will be run
+            <exclude name="Regression"></exclude> Here sanity and Regresion any method is Included it wont run
+    if we want to run sanity and Regression test casses only create one more name called any nam like Function and added to methods and run
+         -->
+

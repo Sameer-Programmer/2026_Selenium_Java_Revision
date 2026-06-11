@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="mySuit" use-default-listeners="true" output-directory="test-output/suite2">
+
+    <!-- Listeners to generate HTML report -->
+    <listeners>
+        <listener class-name="org.testng.reporters.SuiteHTMLReporter"/>
+        <listener class-name="org.testng.reporters.XMLReporter"/>
+    </listeners>
+
+    <test name="myTest">
+        <classes>
+            <class name="Selenium_Java_TestNG.Test1_AlphabeticalOrder"/>
+            <class name="Selenium_Java_TestNG.Test2_Priority"/>
+            <class name="Selenium_Java_TestNG.Test3_TestNg_WorkFlow"/>
+        </classes>
+    </test>
+
+</suite>

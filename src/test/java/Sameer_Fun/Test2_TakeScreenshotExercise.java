@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.io.File;
 import java.time.Duration;
 
-public class TakeScreenshotExercise {
+public class Test2_TakeScreenshotExercise {
     static void main(String[] args){
         String url = "https://testautomationpractice.blogspot.com/";
         WebDriver driver = new ChromeDriver();

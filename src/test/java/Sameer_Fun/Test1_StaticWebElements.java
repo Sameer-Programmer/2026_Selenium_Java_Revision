@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 import java.util.*;
 
-public class Test1_StaticWebElemen {
+public class Test1_StaticWebElements {
     static void main(String[] args) {
         // Print the Author where Subject is Java
         String url = "https://testautomationpractice.blogspot.com/";

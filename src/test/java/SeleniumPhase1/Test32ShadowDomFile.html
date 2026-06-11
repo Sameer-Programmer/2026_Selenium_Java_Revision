@@ -1,0 +1,49 @@
+<div class="MuiBox-root css-13o7eu2" id="shadow-root"><template shadowrootmode="open">
+    <span id="shadow-element" style="display: flex; width: 100%; margin: 15px; padding: 15px; background: rgb(0, 82, 156); border-radius: 10px; color: white;">Shadow Element</span><inner-shadow-dom id="inner-shadow-dom"><template shadowrootmode="open">
+    <style>
+        /* Inner Shadow DOM component styles go here */
+        div {
+          margin-top: 20px;
+        }
+        div span {
+          display: flex;
+          width: 100%;
+          margin: 15px;
+          padding: 15px;
+          background-color: #db214cff;
+          border-radius: 10px;
+          color: white;
+        }
+
+    </style>
+    <div id="nested-shadow-root">
+        <span id="nested-shadow-element">Nested Shadow Element</span>
+        <nested-shadow-dom id="nested-shadow-dom"><template shadowrootmode="open">
+            <style>
+                /* Inner Shadow DOM component styles go here */
+                div {
+                  margin-top: 20px;
+                }
+                div span {
+                  display: flex;
+                  width: 100%;
+                  margin: 15px;
+                  padding: 15px;
+                  background-color: #15354cff;
+                  border-radius: 10px;
+                  color: white;
+                }
+
+            </style>
+            <div id="multi-nested-shadow-root">
+                <span id="multi-nested-shadow-element">Multi-nested Shadow Element</span>
+            </div>
+        </template></nested-shadow-dom>
+    </div>
+</template></inner-shadow-dom></template></div>
+
+
+//
+
+..<div class="MuiBox-root css-13o7eu2" id="shadow-root"><template shadowrootmode="open">
+    This is ShadowHost -->

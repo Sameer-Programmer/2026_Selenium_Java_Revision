@@ -3,7 +3,7 @@ package StringsConcept;
 
 /*
 Substring - startIndex Starts form zero
-Substring - endOndex - startIndex+1
+Substring - endIndex - startIndex+1
  s3.substring(0,5); //  Starting Index and endin Index
  we can provide only Starting Index as well
  s3.substring(6);

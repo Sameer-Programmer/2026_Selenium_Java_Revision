@@ -1,6 +1,6 @@
 package PracticeZone_Strings;
 
-public class Test1 {
+public class Test1_Palindrome {
     static void main(String[] args) {
         String s1 = "MADAM";
         String reverse = "";

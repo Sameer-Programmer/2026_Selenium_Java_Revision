@@ -2,18 +2,21 @@ package StringsConcept;
 
 public class Basics1 {
     static void main(String[] args){
-        // String is a Predeined Class
+        // String is a Predefined Class
+        //String is a class in Java that belongs to the java.lang package.
+        // Since objects of the String class are used to store text,
+        // it is also treated as a non-primitive (reference) data type.
         // Declaration
         // Length
         // toUpperCase()
         // toLowerCase()
-        // concatination - + or concat()
+        // concatenation - + or concat()
         // trim()
         //charAt()
-        // contains -- sequence of string is Impotant
-        // ==  // verfoies the variable is refereing to same object
+        // contains -- sequence of string is Important
+        // ==  // verifies the variable is referring to same object
         // equals()
-        // replace('given','expected') // singlr
+        // replace('given','expected') // single
         // replace("given","expected") // Multiple
         String str = "Hi Sameer";
         String str2 = new String("Imran");

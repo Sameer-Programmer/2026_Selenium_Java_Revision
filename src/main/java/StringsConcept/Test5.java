@@ -1,5 +1,7 @@
 package StringsConcept;
 
+import Concepts.Test6;
+
 public class Test5 {
     static void main(String[] args){
         String s1 = "sameer,idea7@gmail.com";
@@ -10,8 +12,6 @@ public class Test5 {
         System.out.println(s3[0]);
         System.out.println(s4[0]);
         System.out.println(s4[1]);
-
-
 
     }
 }

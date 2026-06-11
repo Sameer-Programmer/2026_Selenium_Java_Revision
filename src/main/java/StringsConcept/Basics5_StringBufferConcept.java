@@ -1,6 +1,6 @@
 package StringsConcept;
 
-public class Basics5 {
+public class Basics5_StringBufferConcept {
     static void main(String[] args) {
 /*
 StringBuffer sbf;              // Declaration only

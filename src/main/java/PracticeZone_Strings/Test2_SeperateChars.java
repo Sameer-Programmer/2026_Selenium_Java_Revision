@@ -1,6 +1,6 @@
 package PracticeZone_Strings;
 
-public class Test2 {
+public class Test2_SeperateChars {
     static void main(String[] args) {
        // Seperate Character, number , Special character and count
         String s1 = "TestingWorld@1234!";

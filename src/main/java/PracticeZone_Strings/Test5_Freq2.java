@@ -1,6 +1,6 @@
 package PracticeZone_Strings;
 
-public class Test5 {
+public class Test5_Freq2 {
     static void main(String[] args) {
         String input = "aabbccdda";
         char[] arr =  input.toCharArray();

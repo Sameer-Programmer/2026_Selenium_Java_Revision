@@ -1,6 +1,6 @@
 package PracticeZone_Strings;
 
-public class Test6 {
+public class Test6_ReverseWords {
     static void main(String[] args) {
         String s1 = "I Love India";
         String s2 = ""; // I evol aidnI;

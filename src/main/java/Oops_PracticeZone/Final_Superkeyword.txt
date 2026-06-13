@@ -1,0 +1,131 @@
+/*
+==========================
+FINAL KEYWORD
+==========================
+
+1. If applied to a variable:
+   - Value cannot be reassigned after initialization.
+   - Acts like a constant.
+
+   Example:
+   final int x = 10;
+   // x = 20;  // Compile Time Error
+
+2. If applied to a method:
+   - Method cannot be overridden by child classes.
+
+   Example:
+   final void m1() {}
+
+3. If applied to a class:
+   - Class cannot be extended (inherited).
+
+   Example:
+   final class Bank {}
+
+==========================
+SUPER() CONSTRUCTOR CALL
+==========================
+
+1. Used to invoke the immediate parent class constructor.
+
+2. Must be the first statement inside a child class constructor.
+
+3. If not written explicitly, Java inserts super() automatically
+   (provided the parent class has a no-argument constructor).
+
+Example:
+
+class Bank {
+    Bank() {
+        System.out.println("Bank Constructor");
+    }
+}
+
+class SBI extends Bank {
+    SBI() {
+        super();
+    }
+}
+
+==========================
+SUPER KEYWORD
+==========================
+
+Definition:
+super is a reference keyword used to access the immediate
+parent class's variables, methods, and constructors.
+
+super belongs to an object (instance), not to the class itself.
+
+Uses:
+
+1. Access Parent Variable
+
+   super.amount;
+
+2. Access Parent Method
+
+   super.m1();
+
+3. Invoke Parent Constructor
+
+   super();
+
+==========================
+IMPORTANT INTERVIEW RULE
+==========================
+
+super can be used only in an instance context of a subclass.
+
+Valid Places:
+✔ Constructor
+✔ Instance Method
+✔ Instance Variable Initialization
+
+Invalid Places:
+✘ Static Method
+✘ Static Variable
+
+Example:
+
+class Bank {
+    int amount = 1000;
+}
+
+class SBI extends Bank {
+
+    int x = super.amount;   // Valid
+
+    SBI() {
+        super();            // Valid
+    }
+
+    void display() {
+        System.out.println(super.amount); // Valid
+    }
+
+    // static int y = super.amount; // Compile Error
+}
+
+==========================
+THIS vs SUPER vs FINAL
+==========================
+
+this  -> Current Class Object
+super -> Immediate Parent Class Object
+final -> Restricts Change
+
+==========================
+ONE-LINE INTERVIEW ANSWERS
+==========================
+
+this:
+Refers to the current class object.
+
+super:
+Refers to the immediate parent class object.
+
+final:
+Used to restrict modification, overriding, and inheritance.
+*/

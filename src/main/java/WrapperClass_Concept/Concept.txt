@@ -1,0 +1,19 @@
+WrapperClass Provides a way to use primitive data types as Objects
+
+byte ---> Byte
+short -->Short
+char ---> Character
+int ---Integer
+float---Float
+long --> Long
+double--> Double
+boolean --> Boolean
+
+1) String ---> int ---> Integer.parseint(String Value);
+2) String ----> double ---> Double.parsedouble(String Value);
+3) String ----> bool -----> Boolean.parseBoolean(Strig Value);
+4) String -----> char ----> Nt possibel==>> All primitive types are possibel except this char
+
+
+convert any data type to String
+String.valueOf();===> convert all primitive Data types in to String format

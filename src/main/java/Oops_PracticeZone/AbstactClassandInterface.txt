@@ -1,0 +1,285 @@
+/*
+==========================
+ABSTRACT CLASS
+==========================
+
+Definition:
+An abstract class is a class that cannot be instantiated
+(object cannot be created directly).
+
+It is declared using the abstract keyword.
+
+Example:
+
+abstract class Animal {
+}
+
+Animal a = new Animal(); // Compile Time Error
+
+==========================
+ABSTRACT METHOD
+==========================
+
+Definition:
+An abstract method is a method without implementation (body).
+
+Syntax:
+
+abstract void sound();
+
+Example:
+
+abstract class Animal {
+
+    abstract void sound();
+
+}
+
+==========================
+RULES OF ABSTRACT CLASS
+==========================
+
+1. If a class contains an abstract method,
+   the class must be declared abstract.
+
+2. An abstract class can contain:
+   ✔ Abstract methods
+   ✔ Concrete methods (implemented methods)
+   ✔ Variables
+   ✔ Constructors
+
+Example:
+
+abstract class Animal {
+
+    int age = 10;
+
+    Animal() {
+        System.out.println("Constructor");
+    }
+
+    abstract void sound();
+
+    void eat() {
+        System.out.println("Eating");
+    }
+}
+
+3. Object creation is NOT allowed.
+
+Animal a = new Animal(); // Compile Time Error
+
+4. Child class must implement all abstract methods.
+
+Example:
+
+abstract class Animal {
+    abstract void sound();
+}
+
+class Dog extends Animal {
+
+    @Override
+    void sound() {
+        System.out.println("Bark");
+    }
+}
+
+==========================
+INTERVIEW POINTS
+==========================
+
+✔ Abstract class can have constructors.
+✔ Abstract class can have static methods.
+✔ Abstract class can have final methods.
+✔ Abstract class can have both abstract and concrete methods.
+✔ Multiple inheritance is NOT supported using abstract classes.
+
+Example:
+
+class B extends A {}  // Valid
+
+class C extends A, B {} // Invalid
+
+==========================
+INTERFACE
+==========================
+
+Definition:
+An interface is a blueprint of a class.
+
+It contains method declarations that implementing classes
+must provide.
+
+Example:
+
+interface Animal {
+
+    void sound();
+
+}
+
+==========================
+RULES OF INTERFACE
+==========================
+
+1. Variables are by default:
+
+   public static final
+
+Example:
+
+interface Demo {
+
+    int x = 10;
+
+    // Same as:
+    // public static final int x = 10;
+}
+
+2. Methods are by default:
+
+   public abstract
+
+Example:
+
+interface Demo {
+
+    void m1();
+
+    // Same as:
+    // public abstract void m1();
+}
+
+3. Object creation is NOT allowed.
+
+Animal a = new Animal(); // Compile Time Error
+
+4. A class implements an interface.
+
+Example:
+
+interface Animal {
+    void sound();
+}
+
+class Dog implements Animal {
+
+    public void sound() {
+        System.out.println("Bark");
+    }
+}
+
+==========================
+MULTIPLE INHERITANCE
+==========================
+
+Java does not support multiple inheritance using classes.
+
+Java supports multiple inheritance using interfaces.
+
+Example:
+
+interface A {
+    void m1();
+}
+
+interface B {
+    void m2();
+}
+
+class Test implements A, B {
+
+    public void m1() {}
+
+    public void m2() {}
+}
+
+==========================
+JAVA 8 INTERFACE FEATURES
+==========================
+
+1. Default Methods
+
+interface Demo {
+
+    default void m1() {
+        System.out.println("Default Method");
+    }
+}
+
+2. Static Methods
+
+interface Demo {
+
+    static void m2() {
+        System.out.println("Static Method");
+    }
+}
+
+==========================
+ABSTRACT CLASS vs INTERFACE
+==========================
+
+1. Keyword
+
+Abstract Class -> extends
+Interface      -> implements
+
+2. Methods
+
+Abstract Class -> Abstract + Concrete Methods
+Interface      -> Abstract Methods
+                  (also Default & Static Methods from Java 8)
+
+3. Variables
+
+Abstract Class -> Any type of variable
+Interface      -> public static final only
+
+4. Constructor
+
+Abstract Class -> Allowed
+Interface      -> Not Allowed
+
+5. Multiple Inheritance
+
+Abstract Class -> Not Supported
+Interface      -> Supported
+
+6. Object Creation
+
+Abstract Class -> Not Allowed
+Interface      -> Not Allowed
+
+==========================
+INTERVIEW ONE-LINERS
+==========================
+
+Abstract Class:
+A partially implemented class that can contain both
+abstract and concrete methods.
+
+Interface:
+A contract that specifies what a class must do,
+without defining how it does it.
+
+Abstract Class:
+Used when classes share common state and behavior.
+
+Interface:
+Used when multiple unrelated classes need to follow
+the same contract.
+
+==========================
+MEMORY TRICK
+==========================
+
+Abstract Class
+= "IS-A" Relationship
+= Partial Abstraction
+
+Interface
+= "CAN-DO" Relationship
+= 100% Contract
+*/

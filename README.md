@@ -6,18 +6,18 @@ This repository, `2026 Selenium Java Revision`, serves as a comprehensive collec
 
 ## Features
 
--   ✨ **Core Java Concepts**: Contains examples and practice problems covering fundamental Java programming principles, including object-oriented programming, control structures, and basic data types.
+-   ✨ **Core Java Concepts**: Contains examples and practice problems covering fundamental Java programming principles, including object-oriented programming, control structures, and basic data types. New additions include detailed examples for **Wrapper Classes** and advanced **OOP concepts**.
 -   🔢 **Array Problems**: A dedicated section for various array manipulation and algorithm challenges, focusing on efficiency and common problem patterns.
 -   ➕ **Mathematical Problems**: Solutions to common mathematical problems implemented in Java, such as prime number checks, Fibonacci series, and Armstrong numbers.
 -   📚 **Collections Framework**: Demonstrations and exercises related to Java's Collections API, showcasing the usage of `ArrayList`, `HashSet`, `HashMap`, and other essential data structures.
 -   🌐 **Selenium WebDriver Automation**: Practical examples of web automation using Selenium WebDriver, covering a wide range of scenarios:
-    -   **Element Interaction**: Handling various types of dropdowns (Select, Bootstrap, Auto-suggestive), interacting with different types of alerts (Simple, Confirmation, Prompt), and managing frames and nested frames.
+    -   **Element Interaction**: Handling various types of dropdowns (Select, Bootstrap, Auto-suggestive), interacting with different types of alerts (Simple, Confirmation, Prompt), managing frames and nested frames, and interacting with **Shadow DOM** and **Nested Shadow DOM** elements.
     -   **Table Handling**: Working with static, dynamic, and paginated web tables, including data extraction and checkbox interactions within tables.
     -   **Synchronization**: Implementing different wait strategies (Implicit, Explicit, Fluent) to handle dynamic web elements and ensure test stability.
     -   **User Actions**: Performing mouse actions (hover, double-click, drag and drop) and keyboard actions.
-    -   **Browser Management**: Handling multiple browser windows and tabs, and utilizing various Selenium locators (ID, Name, Link Text, Class Name, Tag Name, CSS Selector, XPath).
-    -   **Advanced Topics**: Implementing date pickers, file uploads, and taking screenshots.
--   ✅ **TestNG Integration**: Utilizes TestNG for structuring and executing test cases in the Selenium automation suite, enabling parallel execution, data-driven testing, and detailed reporting.
+    -   **Browser Management**: Handling multiple browser windows and tabs, utilizing various Selenium locators (ID, Name, Link Text, Class Name, Tag Name, CSS Selector, XPath), and configuring browser options like headless mode and SSL certificate handling.
+    -   **Advanced Topics**: Implementing date pickers, file uploads, taking screenshots, **data-driven testing using Excel**, and **reading configurations from properties files**.
+-   ✅ **TestNG Integration**: Utilizes TestNG for structuring and executing test cases in the Selenium automation suite, enabling parallel execution, data-driven testing, and detailed reporting. New examples demonstrate **TestNG execution order**, **prioritization**, and **grouping**.
 
 ## Technologies Used
 
@@ -41,21 +41,29 @@ The project adheres to a standard Maven directory structure, facilitating easy n
 │   │       ├── ArraysConcept/             # Fundamental array concepts
 │   │       ├── Collections_Concept/       # Examples of Java Collections Framework
 │   │       ├── Concepts/                  # General Java programming concepts
+│   │       ├── Execrcise_Zone/            # General Java exercises
 │   │       ├── Maths2/                    # Mathematical problem solutions (e.g., Armstrong, Prime)
 │   │       ├── Maths_Problems_Java/       # Additional mathematical problems
+│   │       ├── Oops_PracticeZone/         # Object-Oriented Programming (OOP) concepts and practice
 │   │       ├── PracticeZone/              # Mixed Java practice problems
 │   │       ├── PracticeZoneInterface/     # Interface-related practice
 │   │       ├── PracticeZone_Arrays/       # Array-specific practice problems
+│   │       ├── PracticeZone_Collection/   # Collection-specific practice problems
 │   │       ├── PracticeZone_Strings/      # String-specific practice problems
 │   │       ├── ScannerExamples/           # Examples of using Java's Scanner class
 │   │       ├── School_Basics/             # Basic Java control flow (break, continue)
-│   │       └── StringsConcept/            # Fundamental string concepts and manipulations
+│   │       ├── StringsConcept/            # Fundamental string concepts and manipulations
+│   │       └── WrapperClass_Concept/      # Examples and concepts of Java Wrapper Classes
 │   └── test/
 │       └── java/
-│           ├── SeleniumPhase1/              # Comprehensive Selenium WebDriver test cases with TestNG
-│           └── Sameer_Fun/                # Additional Selenium WebDriver test cases and exercises
+│           ├── Sameer_Fun/                # Additional Selenium WebDriver test cases and exercises
+│           ├── SeleniumPhase1/            # Comprehensive Selenium WebDriver test cases with TestNG
+│           ├── SeleniumPhase2/            # Further Selenium WebDriver test cases
+│           ├── Selenium_Java_TestNG/      # TestNG specific features and examples
+│           └── TestNgXMl_package/         # TestNG XML configuration files
 ├── FilesToTest/                     # Sample files used for testing purposes (e.g., Doctor.pdf, Patient.txt)
-└── Screenshots/                     # Screenshots captured during test execution (e.g., File1.png, TablePage.png)
+├── Screenshots/                     # Screenshots captured during test execution (e.g., File1.png, TablePage.png)
+└── TestData/                        # Data files for data-driven testing (e.g., TestDataFile.xlsx, TestFileconfig.properties)
 ```
 
 ## Selenium Test Cases Overview
@@ -98,6 +106,20 @@ This section provides a detailed summary of the Selenium test cases found in the
 | **Test26_MultipleFiles.java** | Provides examples for uploading multiple files simultaneously. |
 | **Test27_KeyBoardActions.java** | Illustrates various keyboard actions using the `Actions` class, such as pressing keys and key combinations. |
 | **Test28_TakeScreenshorts.java** | Shows how to capture screenshots during test execution for reporting and debugging purposes. |
+| **Test29_browserOptions_Headless.java** | Demonstrates configuring browser options, specifically running Chrome in headless mode. |
+| **Test30_HandlingSSL_browserOptions.java** | Shows how to handle SSL certificate errors by configuring browser options. |
+| **Test31_incognitoMode.java** | Illustrates running the browser in incognito mode using Chrome options. |
+| **Test32_ShadowDom.java** | Demonstrates how to interact with elements within a Shadow DOM. |
+| **Test33_NestedShadowRoot.java** | Provides an example of interacting with elements located inside a nested Shadow DOM. |
+| **Test34_Svg.java** | (Placeholder) Intended for examples of interacting with SVG elements. |
+| **Test35_DataDriven_Reading.java** | Implements data-driven testing by reading test data from an external Excel file (`.xlsx`). |
+| **Test36_ReadingPropertiesFile.java** | Demonstrates how to read configuration properties from a `.properties` file. |
+
+### SeleniumPhase2
+
+| Test File | Description |
+| :--- | :--- |
+| **Test1_BrokenLinks.java** | Focuses on identifying and verifying broken links on a webpage. |
 
 ### Sameer_Fun
 
@@ -105,6 +127,31 @@ This section provides a detailed summary of the Selenium test cases found in the
 | :--- | :--- |
 | **TakeScreenshotExercise.java** | An exercise focusing on capturing screenshots at different stages of test execution. |
 | **Test1_StaticWebElemen.java** | A test case demonstrating interaction with a static web table to filter and validate data based on specific criteria (e.g., finding books by author and checking for specific authors). |
+
+## TestNG Integration Overview
+
+This section details the TestNG test cases and configuration files within the repository, highlighting advanced features for test management.
+
+### Selenium_Java_TestNG
+
+| Test File | Description |
+| :--- | :--- |
+| **Test1_AlphabeticalOrder.java** | Illustrates TestNG's default behavior of executing test methods in alphabetical order. |
+| **Test2_Priority.java** | Demonstrates how to control the execution order of test methods using the `@Priority` annotation. |
+| **Test3_TestNg_WorkFlow.java** | Explains the TestNG workflow, including the order of execution for annotations like `@BeforeSuite`, `@BeforeTest`, `@BeforeClass`, `@BeforeMethod`, `@Test`, `@AfterMethod`, `@AfterClass`, `@AfterTest`, and `@AfterSuite`. |
+| **Test4_HardAssertions.java** | Provides examples of using TestNG's hard assertions (`Assert` class) to validate test conditions, where failure immediately stops test execution. |
+| **Test5_SoftAssertions.java** | Demonstrates the use of soft assertions (`SoftAssert` class) in TestNG, allowing tests to continue execution even after an assertion failure, reporting all failures at the end. |
+| **Test6_Dependency.java** | Shows how to manage test method dependencies using `dependsOnMethods` and `dependsOnGroups` attributes in TestNG. |
+| **Test7_Groups_1.java** | Introduces test grouping in TestNG, allowing for selective execution of tests based on defined groups. |
+| **Test8_Groups_2.java** | Further examples of TestNG groups, demonstrating how to include and exclude groups during test execution. |
+| **Test9_Groups_3.java** | Advanced grouping concepts, including meta-groups and regular expression-based grouping. |
+
+### TestNgXMl_package
+
+| File | Description |
+| :--- | :--- |
+| **myFile.xml** | A sample TestNG XML configuration file demonstrating how to define test suites, tests, classes, and methods for execution. |
+| **myFile2TestNG.xml** | Another example of a TestNG XML file, potentially showcasing different configurations like parallel execution or parameterization. |
 
 ## Getting Started
 
@@ -135,11 +182,16 @@ Ensure you have the following software installed on your system:
 ## Usage
 
 -   **Java Practice**: Explore the `src/main/java` directory to delve into various Java concept implementations and problem solutions. Each sub-directory is organized by topic for easy learning.
--   **Selenium Tests**: The Selenium test cases are located under `src/test/java/SeleniumPhase1` and `src/test/java/Sameer_Fun`. You can execute these tests using your IDE or via Maven from the command line:
+-   **Selenium Tests**: The Selenium test cases are located under `src/test/java/SeleniumPhase1`, `src/test/java/SeleniumPhase2`, and `src/test/java/Sameer_Fun`. You can execute these tests using your IDE or via Maven from the command line:
     ```bash
     mvn test
     ```
     *Note: Ensure you have the appropriate WebDriver (e.g., ChromeDriver, GeckoDriver) configured and its path set in your system's environment variables or within the test code. Alternatively, consider using WebDriverManager for automatic driver management.* 
+-   **TestNG Tests**: To run specific TestNG suites or tests defined in XML files, navigate to the project root and use the following command:
+    ```bash
+    mvn test -Dsurefire.suiteXmlFiles=src/test/java/TestNgXMl_package/myFile.xml
+    ```
+    Replace `myFile.xml` with the desired TestNG XML file.
 
 ## Contributing
 

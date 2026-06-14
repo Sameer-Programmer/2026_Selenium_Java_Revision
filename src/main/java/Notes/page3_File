@@ -1,0 +1,14 @@
+To read the Data we use FileInputStreamClass
+ FileInputStream file =
+                new FileInputStream(pathOfFile + "\\TestData\\TestDataFile2.xlsx");
+
+To Write the data we Use .FileOutputStream;
+package Sameer_Fun;
+
+import java.io.FileOutputStream;
+
+public class Test5 {
+    static void main(String[] args) {
+        FileOutputStream fos = new FileOutputStream("filepath");
+    }
+}

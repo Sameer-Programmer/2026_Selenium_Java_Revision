@@ -1,5 +1,5 @@
 access Modifiers -- defines the scope of variables and Methods
--public   -- Every where inside the project 
+-public   -- Every where inside the project
 -protected  -- Subclass and Parent classand other package through inheritance only
 -private  --- only inside the class
 -default --- No Keyword - only inside the one package - same package not other packages

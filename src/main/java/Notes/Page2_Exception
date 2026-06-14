@@ -1,0 +1,33 @@
+Exception-Handling
+- Exception is a event which will  causing a Programm Termination
+
+Types of Exceptions
+1) Checked Exceptions
+2) Un-Checked Exceptions
+
+1) Checked Exceptions- identify by the compiler
+Ex: Interrupted Exception
+FileNotFound
+IOException
+
+
+
+
+2) Un-Checked Exceptions -NOT identify by the compiler
+- Arithmetic Exception
+- InputMismatchException
+- NullPointer Exception
+- NumberFormat Exception
+- ArrayIndexOutOfBoundException --etc
+
+
+try {
+}catch(){
+}
+finally{
+
+}
+
+case 1- Exception Occured , catch block handles - finally block will execute
+case 2 - Exception Occured , catch block NOT  handled - finally block will execute
+case 3 - Exception Not Occured , catch block ignored --> finally block will execute

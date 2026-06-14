@@ -10,7 +10,9 @@ Ex: Interrupted Exception
 FileNotFound
 IOException
 
-
+we can handle by
+throws
+and try catch as well
 
 
 2) Un-Checked Exceptions -NOT identify by the compiler
@@ -31,3 +33,13 @@ finally{
 case 1- Exception Occured , catch block handles - finally block will execute
 case 2 - Exception Occured , catch block NOT  handled - finally block will execute
 case 3 - Exception Not Occured , catch block ignored --> finally block will execute
+
+throw      -> Creates and throws an exception.
+
+throws     -> Declares that a method may throw an exception
+              and passes the handling responsibility to the caller.
+
+try-catch  -> Handles the exception.
+
+JVM        -> Final handler if nobody catches the exception.
+              It terminates the program and prints the stack trace.

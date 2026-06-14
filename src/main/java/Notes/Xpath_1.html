@@ -1,0 +1,122 @@
+
+<div class="nav-div">
+<a href="/gp/bestsellers/?ref_=nav_cs_bestsellers"
+class="nav-a  " tabindex="0"
+data-csa-c-type="link"
+data-csa-c-slot-id="nav_cs_3" data-csa-c-content-id="nav_cs_bestsellers"
+data-csa-c-id="b30fya-z9286d-djiiq3-j3yn84">Bestsellers</a>
+</div>
+
+//a[text()='Bestsellers']
+
+
+1)Relative Single Xpath -- //a[text()='Bestsellers']
+2) Multiple_Relative Xpath ---//a[@tabindex='0'][text()='Bestsellers']
+3)And Operator ---//a[@tabindex='0'][text()='Bestsellers']
+
+<div class="a-section aok-relative s-image-tall-aspect
+"><img class="s-image" src="https://m.media-amazon.com/images/I/61Y5ZIeHB6L._AC_UL320_.jpg" srcset="https://m.media-amazon.com/images/I/61Y5ZIeHB6L._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/61Y5ZIeHB6L._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/61Y5ZIeHB6L._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/61Y5ZIeHB6L._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/61Y5ZIeHB6L._AC_UL960_FMwebp_QL65_.jpg 3x"
+       alt="Max Men's Cotton Regular Fit T-Shirt"
+       aria-hidden="true" data-image-index="1" data-image-load="" data-image-latency="s-product-image" data-image-source-density="1">
+</div>
+=================================================
+XPATH REVISION NOTES
+=================================================
+
+1) Relative XPath (Single Attribute)
+------------------------------------
+Syntax:
+//tagname[text()='value']
+
+Example:
+//a[text()='Bestsellers']
+
+
+2) Relative XPath (Multiple Attributes)
+----------------------------------------
+Syntax:
+//tagname[@attribute='value'][text()='text']
+
+Example:
+//a[@tabindex='0'][text()='Bestsellers']
+
+
+3) AND Operator
+---------------
+Syntax:
+//tagname[@attribute1='value1' and @attribute2='value2']
+
+Examples:
+//a[@tabindex='0' and text()='Bestsellers']
+
+//img[@class='s-image' and @alt="Max Men's Cotton Regular Fit T-Shirt"]
+
+
+4) OR Operator
+--------------
+Syntax:
+//tagname[@attribute1='value1' or @attribute2='value2']
+
+Examples:
+//a[@tabindex='0' or text()='Bestsellers']
+
+//img[@class='s-image' or @alt="Max Men's Cotton Regular Fit T-Shirt"]
+
+
+5) contains()
+-------------
+Syntax:
+//tagname[contains(@attribute,'value')]
+
+Examples:
+//img[contains(@alt,"Max Men's Cotton Regular Fit T-Shirt")]
+
+//input[contains(@id,'user')]
+
+Notes:
+- Used when partial text is known.
+- '=' operator is not used inside contains().
+
+
+6) starts-with()
+----------------
+Syntax:
+//tagname[starts-with(@attribute,'value')]
+
+Examples:
+//img[starts-with(@alt,"Max Men's Cotton Regular Fit T-Shirt")]
+
+//input[starts-with(@id,'user')]
+
+Notes:
+- Checks whether the attribute starts with the given value.
+
+
+7) text()
+---------
+Syntax:
+//tagname[text()='value']
+
+Examples:
+//a[text()='Bestsellers']
+
+//button[text()='Login']
+
+Notes:
+- Exact text match.
+- Most commonly used for links and buttons.
+
+
+=================================================
+MOST COMMON INTERVIEW XPATHS
+=================================================
+
+//a[text()='Login']
+
+//input[contains(@id,'user')]
+
+//input[starts-with(@id,'user')]
+
+//input[@type='text' and @name='email']
+
+//input[@id='email' or @name='email']

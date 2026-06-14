@@ -15,6 +15,7 @@ public class Test35_DataDriven_Reading {
         FileInputStream fis = new FileInputStream(projectPath+"\\TestData\\TestDataFile.xlsx");
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
         XSSFSheet sheet = workbook.getSheet("Sheet1");
+
         int totalRows = sheet.getLastRowNum();
         int totalCells = sheet.getRow(1).getLastCellNum();
         System.out.println(totalRows+"TotalRows");

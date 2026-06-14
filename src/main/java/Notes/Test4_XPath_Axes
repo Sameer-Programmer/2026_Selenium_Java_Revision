@@ -1,0 +1,35 @@
+following-sibling ➡️ Move Right
+preceding-sibling ⬅️ Move Left
+parent ⬆️ One level Up
+ancestor ⬆️⬆️ Multiple levels Up
+child ⬇️ One level Down
+descendant ⬇️⬇️ Multiple levels Down
+self 🎯 Current node itself
+
+
+
+
+
+//td[text()='Alfreds Futterkiste']/self::td  -->self tag
+
+//td[text()='Germany']/self::td --> self
+//td[text()='Alfreds Futterkiste']/parent::tr/td[3] -- parent Tag
+//tr/child::td[text()='Germany']
+
+//td[text()='Germany']/ancestor::tr/td[3] --move Multiple level up and here we came down
+
+//tr/descendant::td[text()='Germany'] -- From top to down
+
+siblings
+
+siblings - same level
+
+
+//td[text()='Maria Anders']/following-sibling::td
+
+now to catch Maria
+
+//td[text()='Germany']/preceding-sibling::td[1]
+
+//tr/following::td[text()='Germany']
+//tr/preceding::td[text()='Germany']

@@ -1,2 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/TestNgXMl_package"><classes/></test></suite>
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/Selenium_Java_TestNG_2"><classes><class name="Selenium_Java_TestNG_2.DataproviderDemo"><methods><include name="testLogin"/></methods></class><class name="Selenium_Java_TestNG_2.ParamTest"><methods><include name="testLogo"/><include name="testTitle"/><include name="testURL"/></methods></class></classes></test></suite>-->

@@ -1,6 +1,5 @@
-package Selenium_Java_TestNG;
+package Selenium_Java_TestNG_1;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite" thread-count="3"  parallel="tests" >
+    <!-- Serial Execution with two browser first chrome then edge -->
+    <!-- This is one test -->
+    <test name="Test1">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="Selenium_Java_TestNG_2.ParamTest"/>
+        </classes>
+    </test>
+    <!-- This is another test -->
+    <test  name="Test2">
+        <parameter name="browser" value="edge"></parameter>
+        <classes>
+            <class name="Selenium_Java_TestNG_2.ParamTest"/>
+        </classes>
+    </test>
+</suite>

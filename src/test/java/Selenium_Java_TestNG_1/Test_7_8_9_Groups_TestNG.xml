@@ -11,9 +11,9 @@
          </run>
      </groups>
     <classes>
-        <class name="Selenium_Java_TestNG.Test7_Groups_1" ></class>
-        <class name="Selenium_Java_TestNG.Test8_Groups_2" ></class>
-        <class name="Selenium_Java_TestNG.Test9_Groups_3" ></class>
+        <class name="Selenium_Java_TestNG_1.Test7_Groups_1" ></class>
+        <class name="Selenium_Java_TestNG_1.Test8_Groups_2" ></class>
+        <class name="Selenium_Java_TestNG_1.Test9_Groups_3" ></class>
     </classes>
  </test>
 </suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="mySuit" >
+    <test name="myTest">
+        <classes>
+            <class name="Selenium_Java_TestNG_1.Test1_AlphabeticalOrder"/>
+            <class name="Selenium_Java_TestNG_1.Test2_Priority"/>
+            <class name="Selenium_Java_TestNG_1.Test3_TestNg_WorkFlow"/>
+        </classes>
+    </test>
+</suite>
+
+
+<!-- Above Test cases are Running Sequential one Test - All 3 class are running Sequential  -->

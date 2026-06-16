@@ -51,7 +51,7 @@ public class Test12_Dropdowns {
 
         // MultiSelectDropdowns
 
-        WebElement coloursdropdown = driver.findElement(By.xpath("//select[@id=\"colors\"]"));
+        WebElement coloursdropdown = driver.findElement(By.xpath("//select[@id='colors']"));
         Select selectcolours = new Select(coloursdropdown);
         selectcolours.selectByValue("red");
         selectcolours.selectByValue("blue");

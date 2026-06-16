@@ -50,7 +50,8 @@ public class Test15_1_StaticWebTable {
         System.out.println(data1);
         for (int i = 2; i <= rows.size(); i++) {
             for (int j = 1; j <= coloumns.size(); j++) {
-                String value = driver.findElement(By.xpath("//table[@name='BookTable']//tr[" + i + "]//td[" + j + "]"))
+                String value =
+                        driver.findElement(By.xpath("//table[@name='BookTable']//tr[" + i + "]//td[" + j + "]"))
                         .getText();
                 System.out.println(value + i);
             }

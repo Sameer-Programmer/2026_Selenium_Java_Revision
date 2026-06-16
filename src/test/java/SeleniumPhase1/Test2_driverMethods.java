@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.Set;
 
 public class Test2_driverMethods {
@@ -27,6 +28,10 @@ public class Test2_driverMethods {
         driver.findElement(By.linkText("OrangeHRM, Inc")).click();
         Set<String> windowIds= driver.getWindowHandles();
         System.out.println(windowIds);
+
+        ArrayList<String> arrayList = new ArrayList<>(windowIds);
+        System.out.println(arrayList.get(0));
+
         driver.close();
         driver.quit();
 

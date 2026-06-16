@@ -10,4 +10,5 @@ Dynamic
 Report- name with TimeStamp
 extent.setSystemInfo -- dynamic no HardCodee
 OnTest Failure - Screenshort
-We shold display the class Name - test case ID 
+We shold display the class Name - test case ID
+Sharing Report in Email

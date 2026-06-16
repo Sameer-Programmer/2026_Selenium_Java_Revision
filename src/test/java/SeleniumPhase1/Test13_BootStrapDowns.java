@@ -15,7 +15,8 @@ public class Test13_BootStrapDowns {
         driver.manage().window().maximize();
         driver.get(url);
 
-        WebElement createNewAccountElement = driver.findElement(By.xpath("(//div[@role='none']//span[normalize-space()='Create new account'])[1]"));
+        WebElement createNewAccountElement =
+                driver.findElement(By.xpath("(//div[@role='none']//span[normalize-space()='Create new account'])[1]"));
         createNewAccountElement.click();
         WebElement day = driver.findElement(By.cssSelector("[aria-label='Select day']"));
         day.click();

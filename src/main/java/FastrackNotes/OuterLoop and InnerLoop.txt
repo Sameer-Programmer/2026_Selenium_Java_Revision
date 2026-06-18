@@ -1,0 +1,41 @@
+aabbc
+
+
+i---------j
+a ------a,a,b,,b,c,--- a1,a2
+a-------a,a,b,b,c ---- a1,a2
+b-------a,a,b,b,c -----b1,b2
+b--------a,a,b,b,c ---b1,b2
+c-------a,a,b,b,c ---c1
+
+import java.util.*;
+
+public class Test1 {
+	public static void main(String[] args){
+
+		String s1 = "aabbc";
+		String output = "";
+
+		for(int i =0;i<s1.length();i++){
+		    char ch = s1.charAt(i);
+		    int count = 0;
+		    for(int j =0;j<s1.length();j++){
+		        char jch = s1.charAt(j);
+		        if(ch == jch){
+		            count=count+1;
+		        }
+		    }
+
+		    if(count==1){
+		        System.out.println(ch);
+		        break;
+		    }
+		}
+	}
+
+}
+
+
+
+
+

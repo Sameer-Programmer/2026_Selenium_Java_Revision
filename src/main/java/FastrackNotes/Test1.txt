@@ -1,0 +1,5 @@
+hm.containsKey()
+for(Object k:hm.keySet()){
+sout
+k+"   :  "+hm.get(k);
+}

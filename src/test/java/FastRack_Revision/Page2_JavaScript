@@ -73,6 +73,28 @@ Reason:
 
 =================================================
 
+3. FILE UPLOAD HANDLING
+-----------------------
+
+Single File Upload
+
+WebElement file =
+driver.findElement(By.id("singleFileInput"));
+
+file.sendKeys("C:\\Files\\Patient.txt");
+
+-------------------------------------------------
+
+Multiple File Upload
+
+WebElement file =
+driver.findElement(By.id("multipleFilesInput"));
+
+file.sendKeys(file1 + "\n" + file2);
+
+
+======================================================
+
 INTERVIEW ANSWER
 ----------------
 

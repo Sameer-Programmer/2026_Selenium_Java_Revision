@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import java.io.File;
 import java.io.IOException;
 
-public class Test9 extends Test001Baseclass_AutomationPractice {
+public class Test9_Screenshots extends Baseclass_AutomationPractice {
 
 
     // FullScreeshot

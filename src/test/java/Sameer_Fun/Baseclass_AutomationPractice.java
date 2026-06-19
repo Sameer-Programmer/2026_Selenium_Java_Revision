@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeClass;
 
 import java.time.Duration;
 
-public class Test001Baseclass_AutomationPractice {
+public class Baseclass_AutomationPractice {
     protected WebDriver driver;
     @BeforeClass
     public  void setup(){
@@ -25,7 +25,8 @@ public class Test001Baseclass_AutomationPractice {
 
     @AfterClass
     public void tearDown() {
-        driver.quit();
+
+        //driver.quit();
     }
 
 }

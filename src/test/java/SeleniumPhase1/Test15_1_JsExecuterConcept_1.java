@@ -13,7 +13,7 @@ import java.time.Duration;
 -Send Keys with JavaScript
 - Scroll
 
-Note - Slider whch we see is not developed by the developer
+Note - Slider which we see is not developed by the developer
 Scroll -
 we can scroll up to few Pixcels
 we can scroll up to certain element visibility
@@ -50,7 +50,7 @@ public class Test15_1_JsExecuterConcept_1 {
 
       // to scromm bottom of page
         js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
-        System.out.println(js.executeScript("return window.pageYOffset;"));
+        System.out.println(js.executeScript("return window.pageYOffset"));
 
 
 

@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class Test6 {
+public class Test6_jsExecuter {
     static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
         driver.get("https://testautomationpractice.blogspot.com/");

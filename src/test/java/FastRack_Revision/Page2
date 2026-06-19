@@ -1,0 +1,97 @@
+==========================
+SELENIUM REVISION NOTES
+==========================
+
+1. JAVASCRIPT EXECUTOR
+----------------------
+
+JavascriptExecutor js = (JavascriptExecutor) driver;
+
+// Scroll down by 1500 pixels
+js.executeScript("window.scrollBy(0,1500)");
+
+// Scroll until element is visible
+js.executeScript("arguments[0].scrollIntoView()", element);
+
+// Click using JavaScript
+js.executeScript("arguments[0].click()", element);
+
+// Set value in textbox
+js.executeScript("arguments[0].setAttribute('value','Sameer')", element);
+
+Required Variables:
+
+String expectedYear = "2026";
+When to Use:
+- Element not clickable.
+- sendKeys() not working.
+- Need to scroll to hidden element.
+- DOM manipulation required.
+
+=================================================
+
+2. DATE PICKER HANDLING
+-----------------------
+
+String expectedMonth = "December";
+String expectedDate = "26";
+
+
+
+IMPORTANT NOTES
+---------------
+
+1. Inside While Loop keep ONLY:
+
+   a) Current Year Element
+   b) Current Month Element
+   c) Next/Previous Button
+
+2. Do NOT use exact locators like:
+
+   //span[text()='December']
+   //span[text()='2026']
+
+Reason:
+- Month and Year change dynamically.
+- Script may fail when calendar opens on another month.
+
+3. Always use generic locators:
+
+   By.className("ui-datepicker-year")
+   By.className("ui-datepicker-month")
+
+4. Compare using:
+
+   getText()
+
+5. After month and year match:
+
+   break;
+
+6. Come out of loop and click target date.
+
+=================================================
+
+INTERVIEW ANSWER
+----------------
+
+For Date Picker handling:
+
+1. Open the calendar.
+2. Capture current month and current year dynamically.
+3. Compare them with expected month and year.
+4. If they don't match, click Next or Previous.
+5. Repeat until required month and year are reached.
+6. Break the loop.
+7. Select the target date.
+
+Golden Rule:
+
+Inside While Loop:
+- Current Year
+- Current Month
+- Next/Previous Button
+
+Outside While Loop:
+- Click Target Date

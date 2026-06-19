@@ -20,10 +20,11 @@ public class Test28_TakeScreenshorts {
         driver.manage().window().maximize();
         driver.get(url);
         String projectPath = System.getProperty("user.dir");
+
         TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
-        File sfile = takesScreenshot.getScreenshotAs(OutputType.FILE);
-        File targetfile = new File(projectPath+"\\Screenshots\\full1Page.png");
-        sfile.renameTo(targetfile);
+        File screenshotfile = takesScreenshot.getScreenshotAs(OutputType.FILE);
+        File targetfile = new File(projectPath+"\\Screenshots\\full1Page.png"); // storagePath
+        screenshotfile.renameTo(targetfile);
 
         //webElement
 

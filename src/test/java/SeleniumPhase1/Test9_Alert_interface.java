@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class Test9_Alert {
+public class Test9_Alert_interface {
     static void main(String[] args) throws InterruptedException {
         String url = "https://testautomationpractice.blogspot.com/";
         WebDriver driver = new ChromeDriver();

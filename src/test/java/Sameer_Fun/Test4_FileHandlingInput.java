@@ -6,10 +6,9 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class Test4 {
+public class Test4_FileHandlingInput {
     static void main(String[] args) throws IOException {
         String pathOfFile = System.getProperty("user.dir");
         FileInputStream file =

@@ -24,9 +24,9 @@ public class Baseclass_AutomationPractice {
     }
 
     @AfterClass
-    public void tearDown() {
-
-        //driver.quit();
+    public void tearDown() throws InterruptedException {
+        Thread.sleep(100000);
+        driver.quit();
     }
 
 }

@@ -5,7 +5,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class Test14_WebTableHandling extends Baseclass_AutomationPractice{
+public class Test14_WebTable_Print extends Baseclass_AutomationPractice{
 
     @Test
     public void m1(){
@@ -18,7 +18,17 @@ public class Test14_WebTableHandling extends Baseclass_AutomationPractice{
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView()",table);
 
-      // Step 2 - Print cell
+
+
+        // Print First row
+        String cellDataFirstRow=
+                driver.findElement(By.xpath("//table[@name='BookTable']//tr[1]"))
+                        .getText();
+        System.out.print(cellDataFirstRow+" ");
+
+        System.out.println();
+
+      // Step 2 - Print cells from second row
         // Blueprint of cell --> //table[@name='BookTable']//tr[2]//td[1]
 
 

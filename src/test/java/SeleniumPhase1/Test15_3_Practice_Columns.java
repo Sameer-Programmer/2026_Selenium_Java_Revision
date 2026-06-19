@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 import java.util.List;
 
-public class Test15_3_practice {
+public class Test15_3_Practice_Columns {
     static void main(String[] args){
 
         String url = "https://testautomationpractice.blogspot.com/";

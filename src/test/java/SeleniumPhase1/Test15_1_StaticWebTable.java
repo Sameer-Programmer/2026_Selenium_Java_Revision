@@ -27,27 +27,30 @@ import java.time.Duration;
 import java.util.List;
 
 public class Test15_1_StaticWebTable {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         String url = "https://testautomationpractice.blogspot.com/";
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
         driver.manage().window().maximize();
         driver.get(url);
+
         List<WebElement> rows = driver.findElements(By.xpath("//table[@name='BookTable']//tr"));
         String rows1 = rows.get(0).getText();
-        System.out.println(rows1 + "           rows");
-        System.out.println(rows.size());
+        System.out.println(rows1 + "           rows");    // to print the first row
+        System.out.println(rows.size()); // to know the size of row
         for (WebElement element : rows) {
-            System.out.println(element.getText());
+            System.out.println(element.getText()); //to print each row
         }
 
         List<WebElement> coloumns = driver.findElements(By.xpath("//table[@name='BookTable']//th"));
-        System.out.println(coloumns.size());
+        System.out.println(coloumns.size());  // column size
         System.out.println(coloumns.get(1).getText());
 
         // Extract the Data Master in Selenim with index we can send
         String data1 = driver.findElement(By.xpath("//table[@name='BookTable']//tr[5]//td[1]")).getText();
         System.out.println(data1);
+
+        System.out.println("Loop Data starts");
         for (int i = 2; i <= rows.size(); i++) {
             for (int j = 1; j <= coloumns.size(); j++) {
                 String value =

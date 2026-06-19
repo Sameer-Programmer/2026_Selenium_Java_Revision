@@ -31,7 +31,8 @@ public class Test1 {
         System.out.println(arrayListSize);
         System.out.println(arrayList);
         System.out.println(arrayList.get(0));
-        System.out.println(arrayList.getLast());
+      //  arrayList.getLast();
+      // System.out.println(arrayList.getLast());
         System.out.println(arrayList.isEmpty());
 
         ArrayList arrayList2 = new ArrayList();

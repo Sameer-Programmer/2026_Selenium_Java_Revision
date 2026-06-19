@@ -1,0 +1,49 @@
+Webtable- Thinking
+
+How we have to Observe Webtable
+
+1)Table contains Rows and columns
+2) tr ---> Table Rows
+3) th----> Table Headers --> columns
+4) td ---> Table Data --> Cells
+
+with tr tag we can Get total Rows --//table[@name='BookTable']//tr--All rows
+with combination of tr and th --> only columns-of first row --//table[@name='BookTable']//tr[1]//th
+with combination of tr and td --->we will get all cells exclusing first row //table[@name='BookTable']//tr//td
+
+So we deal with rows from i = 2
+
+once we get rows and coloumns we are able to print  every row
+
+String data = [//table[@name='BookTable']//tr[2]//td[1]] .get text ()
+
+
+// concept 2
+
+Now the scenario is we have to confirm either  the
+
+AutherName --->Animesh
+BookName------> Learn JS --- we have  to check these two are ine same row
+Now how to deal this to remeber in  a Long term memory
+
+
+Here what we have to observe is First is
+Column of Auther  is Fix
+colum of  Book  is Fix
+
+so First capture the Auther then booknmae
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

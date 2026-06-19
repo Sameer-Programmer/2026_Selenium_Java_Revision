@@ -43,12 +43,13 @@ public class Test24_SliderActions {
         System.out.println(price.getText());
 
        // Thread.sleep(15000);
+        driver.close();
         driver.quit();
 
 
 
 
-      driver.close();
+
 
 
     }

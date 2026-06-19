@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a5f9576-082d-4bb1-b8f8-57e0c3962a4f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/FastRack_Revision/FileUploads.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Sameer_Fun/Test11_FileUploads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilesToTest/Doctor.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Doctor.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilesToTest/Patient.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Patient.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FastRack_Revision/Page1" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FastRack_Revision/Page1_Basics.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FastRack_Revision/Page2" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FastRack_Revision/Page2_JavaScript" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPhase1/Test25_FileUploads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPhase1/Test25_FileUploads.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3DsaL9zH38WFKwDAnkbIve0I2VL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArmstrongNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayProblems.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayProblems.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayProblems.Test3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Array_Examples.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Basics1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Basics2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Basics4_CharArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Basics5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Basics5_StringBufferConcept.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Basics6_StringBuilderConcept.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Basics_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Boy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Car.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionHandlingConcept.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionHandlingConcept.Test3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Execrcise_Zone.Test28.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FibnacciSeries.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Human.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Maths_Problems_Java.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Maths_Problems_Java.Test4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Maths_Problems_Java.Test5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OverRideDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Perfect.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Power.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PracticeZone_Strings.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeNumberCheck.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reverse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sameer_ReadFile.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.School_Basics.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SkodaCar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SqureRoot.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringsConcept.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TEST8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TakeScreenshotExercise.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test10_AuthAlert.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test10_CountDigits.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test11.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test11_MaxSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test11_RightRotation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test12.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test12SubArraySum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test12_dropdowns.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test13.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test13_BootStrapDowns.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test13_RotationK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test14.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test14_AutoSuggestionDropdown.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test14_FindDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test15.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test15_1_JsExecuterConcept_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test15_1_StaticWebTable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test15_2_WebtableAssignment.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test15_3_practice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test15_JavaScriptExecuterConcept.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test15_StaticWebTable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test16.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test16_DynamicWebTable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test16_FindMissingNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test17.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test17_WebTable_Checkbox.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test18.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test18_Non_RepetingElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test18_PaginationWebTable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test19.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test19_PaginationWebtable_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test1_BrokenLinks.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test1_ReverseAnArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test1_SeleniumLocators.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test1_SingleDimensionalArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test1_SingleDimensionalArray_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test1_StaticWebElemen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test20.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test20_FrequencyCount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test20_PaginationWebTable_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test21.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test21_DatePicker_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test22.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test22_DatePicker2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test23.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test23_MouseActions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test24.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test24_KeyBoardActions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test24_SingleOcc.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test25.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test25_FileUploads.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test25_LinearSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test25_SwapStrings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test26.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test26_Bubblesort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test26_MultipleFiles.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test27.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test27_KeyBoardActions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test28 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test28.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test28_TakeScreenshorts.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test29.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test29_browserOptions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test2_Inheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test2_MIn_Max_Array.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test2_PrimeNumberCheck.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test2_driverMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test30.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test30_HandlingSSL_browserOptions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test31.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test31_incgnitoMode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test33_NestedShadowRoot.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test35_DataDriven.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test36_ReadingPropertiesFile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test3_FibnacciSeries.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test3_MultiDimensionalArray_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test3_RemoveDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test3_Sort_SecondLargest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test4RemoveDuplicates_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test4_Object_toStoreDifferentTypesOfArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test4_PowerOfNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test4_RemoveDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test5_FindDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test5_LeapYear.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test5_ScannerClass_Arrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test6_FindDuplicates2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test6_Frequency.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test6_NavigateAndGetMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test6_PrimeNumber_100.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test7_DateHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test7_SqureRoot.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test7_WindowHandles.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test8_ChekboxHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test8_FrequencyCount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test8_MoveZerosEnd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test8_ScreenshotHandling (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test8_ScreenshotHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test8_reverseNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test9_Alert.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test9_ArmstrongNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WrapperClass_Concept.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Ymg_18_May_26_Selenium_Java [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Ymg_18_May_26_Selenium_Java [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Ymg_18_May_26_Selenium_Java [test].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/Selenium_Java_TestNG_1/Test_1_2_3_Squential_testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/Selenium_Java_TestNG_1/Test_1_2_3_parallelClass_testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/Selenium_Java_TestNG_1/Test_7_8_9_Groups_TestNG.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/Selenium_Java_TestNG_2/testng3.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/Selenium_Java_TestNG_3/Testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/Selenium_Java_TestNG_3/TestngExtent.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/TestNgXMl_package/Test1_testNg.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/TestNgXMl_package/Test_1_2_3_Squential_testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/TestNgXMl_package/myFile.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/TestNgXMl_package/myFile2TestNG.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/testNg.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DataproviderDemo.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DataproviderDemo.testLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.OrangHRM.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ParamTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test1.m1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test10_MouseActions.TestMouseActions.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test11_FileUploads.MultipleFilesUplaod.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test11_FileUploads.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test11_FileUploads.singleFileUpload.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test1_AlphabeticalOrder.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test2_Priority.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test4.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test4.m1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test4_HardAssertions.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test5_SoftAssertions.m1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test6_Dependency.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test6_Dependency.m1.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.Test8_ScreenshotHandling.cpatureScreenshot.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test9.captureElement.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Test9.capturescreenshot.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestNg_WorkFlow.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/FastRack_Revision&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;GitIgnore&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mohamed Imran\IdeaProjects\Ymg_18_May_26\src\test\java\FastRack_Revision" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mohamed Imran\IdeaProjects\Ymg_18_May_26\src\test\java\Selenium_Java_TestNG_1" />
+      <recent name="C:\Users\Mohamed Imran\IdeaProjects\Ymg_18_May_26\src\test\java\SeleniumPhase1" />
+      <recent name="C:\Users\Mohamed Imran\IdeaProjects\Ymg_18_May_26\src\test\java" />
+      <recent name="C:\Users\Mohamed Imran\IdeaProjects\Ymg_18_May_26" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Test11_FileUploads.MultipleFilesUplaod">
+    <configuration name="Test10_MouseActions.TestMouseActions" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ymg_18_May_26_Selenium_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sameer_Fun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Sameer_Fun" />
+      <option name="MAIN_CLASS_NAME" value="Sameer_Fun.Test10_MouseActions" />
+      <option name="METHOD_NAME" value="TestMouseActions" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test11_FileUploads" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ymg_18_May_26_Selenium_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sameer_Fun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Sameer_Fun" />
+      <option name="MAIN_CLASS_NAME" value="Sameer_Fun.Test11_FileUploads" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test11_FileUploads.MultipleFilesUplaod" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ymg_18_May_26_Selenium_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sameer_Fun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Sameer_Fun" />
+      <option name="MAIN_CLASS_NAME" value="Sameer_Fun.Test11_FileUploads" />
+      <option name="METHOD_NAME" value="MultipleFilesUplaod" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test11_FileUploads.singleFileUpload" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ymg_18_May_26_Selenium_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sameer_Fun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Sameer_Fun" />
+      <option name="MAIN_CLASS_NAME" value="Sameer_Fun.Test11_FileUploads" />
+      <option name="METHOD_NAME" value="singleFileUpload" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test9_Screenshots.captureElement" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ymg_18_May_26_Selenium_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sameer_Fun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Sameer_Fun" />
+      <option name="MAIN_CLASS_NAME" value="Sameer_Fun.Test9_Screenshots" />
+      <option name="METHOD_NAME" value="captureElement" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Test11_FileUploads.MultipleFilesUplaod" />
+        <item itemvalue="TestNG.Test11_FileUploads" />
+        <item itemvalue="TestNG.Test11_FileUploads.singleFileUpload" />
+        <item itemvalue="TestNG.Test10_MouseActions.TestMouseActions" />
+        <item itemvalue="TestNG.Test9_Screenshots.captureElement" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a5f9576-082d-4bb1-b8f8-57e0c3962a4f" name="Changes" comment="" />
+      <created>1779073175594</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779073175594</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/PracticeZoneInterface/SkodaCar.java</url>
+          <line>23</line>
+          <properties class="SkodaCar">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

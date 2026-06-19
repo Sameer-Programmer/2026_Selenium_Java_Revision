@@ -8,19 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a5f9576-082d-4bb1-b8f8-57e0c3962a4f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Advanced_Learning/Page_1_Webtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Sameer_Fun/Test12_KeyBoardkeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Sameer_Fun/Test13_SortedChecklist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Sameer_Fun/Test14_WebTable_Print.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Sameer_Fun/Test15_WebTableScenario1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Collections_Concept/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Collections_Concept/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Sameer_Fun/Baseclass_AutomationPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Sameer_Fun/Baseclass_AutomationPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPhase1/Test15_1_StaticWebTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPhase1/Test15_1_StaticWebTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPhase1/Test15_3_practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPhase1/Test15_3_Practice_Columns.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPhase1/Test24_SliderActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPhase1/Test24_SliderActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Advanced_Learning/Page_1_Webtable" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Advanced_Learning/Page_1_Webtable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Sameer_Fun/Test15_WebTableScenario1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Sameer_Fun/Test15_WebTableScenario1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,6 +244,7 @@
     "TestNG.Test14_WebTableHandling.m1.executor": "Run",
     "TestNG.Test14_WebTable_Print.m1.executor": "Run",
     "TestNG.Test15_WebTableScenario1.m1.executor": "Run",
+    "TestNG.Test15_WebTableScenario1.m2.executor": "Run",
     "TestNG.Test1_AlphabeticalOrder.executor": "Run",
     "TestNG.Test2_Priority.executor": "Run",
     "TestNG.Test4.executor": "Run",
@@ -294,7 +285,7 @@
       <recent name="C:\Users\Mohamed Imran\IdeaProjects\Ymg_18_May_26" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Test15_WebTableScenario1.m1">
+  <component name="RunManager" selected="TestNG.Test15_WebTableScenario1.m2">
     <configuration name="Test15_1_StaticWebTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SeleniumPhase1.Test15_1_StaticWebTable" />
       <module name="Ymg_18_May_26_Selenium_Java" />
@@ -304,24 +295,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test12_KeyBoardkeys.FillForm" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ymg_18_May_26_Selenium_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sameer_Fun.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Sameer_Fun" />
-      <option name="MAIN_CLASS_NAME" value="Sameer_Fun.Test12_KeyBoardkeys" />
-      <option name="METHOD_NAME" value="FillForm" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -380,13 +353,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test15_WebTableScenario1.m2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ymg_18_May_26_Selenium_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sameer_Fun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Sameer_Fun" />
+      <option name="MAIN_CLASS_NAME" value="Sameer_Fun.Test15_WebTableScenario1" />
+      <option name="METHOD_NAME" value="m2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Test15_WebTableScenario1.m2" />
         <item itemvalue="TestNG.Test15_WebTableScenario1.m1" />
         <item itemvalue="TestNG.Test14_WebTable_Print.m1" />
         <item itemvalue="Application.Test15_1_StaticWebTable" />
         <item itemvalue="TestNG.Test13_SortedChecklist.m1" />
-        <item itemvalue="TestNG.Test12_KeyBoardkeys.FillForm" />
       </list>
     </recent_temporary>
   </component>

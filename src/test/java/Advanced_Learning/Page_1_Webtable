@@ -33,9 +33,70 @@ colum of  Book  is Fix
 
 so First capture the Auther then booknmae
 
+WEB TABLE THINKING
+==================
 
+Table
+ ↓
+Rows + Columns
 
+tr = Rows
+th = Columns
+td = Data
 
+Header Row = 1
+Data Starts = 2
+
+XPath:
+Rows    -> //tr
+Columns -> //tr[1]//th
+Cell    -> //tr[i]//td[j]
+
+--------------------------------
+
+SCENARIO
+
+BookName | Author
+
+Learn JS | Animesh
+
+Question:
+Get BookName for Author = Animesh
+
+THINKING
+
+Author = Search Key
+BookName = Target Value
+
+Search Key
+    ↓
+Find Row
+    ↓
+Stay Same Row
+    ↓
+Get Target Value
+
+Formula
+
+Search Key → Row Found → Target Value
+
+Examples
+
+Author   → BookName
+Employee → Salary
+Product  → Price
+Student  → Marks
+
+Same Logic Everywhere
+
+/// Scenarioi - same but headers index is changing
+Dynamic Header Handling
+
+1. Capture all headers
+2. Store in List
+3. Find index using indexOf()
+4. Add +1 for XPath
+5. Use index in dynamic XPath
 
 
 

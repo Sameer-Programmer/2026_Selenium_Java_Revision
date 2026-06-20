@@ -9,8 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3a5f9576-082d-4bb1-b8f8-57e0c3962a4f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Advanced_Learning/Page_1_Webtable" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Advanced_Learning/Page_1_Webtable" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Sameer_Fun/Test15_WebTableScenario1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Sameer_Fun/Test15_WebTableScenario1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPhase1/Test24_SliderActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPhase1/Test24_Mouse_SliderActions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

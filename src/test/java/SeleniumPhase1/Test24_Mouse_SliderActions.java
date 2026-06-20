@@ -9,7 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 import java.time.Duration;
 import java.util.List;
 
-public class Test24_SliderActions {
+public class Test24_Mouse_SliderActions {
     static void main(String[] args) throws InterruptedException {
 
         String url = "https://testautomationpractice.blogspot.com/#";

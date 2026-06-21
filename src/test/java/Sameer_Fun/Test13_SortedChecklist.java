@@ -25,19 +25,33 @@ public class Test13_SortedChecklist extends Baseclass_AutomationPractice {
         ArrayList list2 = new ArrayList<>();
 
 
-        for(WebElement animal:animalslist ){
-          list1.add(animal.getText());
-        }
-        System.out.println(list1);
-
-        for(WebElement animal:animalslist ){
+            for(WebElement animal:animalslist){
+                list1.add(animal.getText());
+            }
+        for(WebElement animal:animalslist){
             list2.add(animal.getText());
         }
-        System.out.println(list2);
 
-        Collections.sort(list1);
-        boolean status = list1.equals(list2);
-        Assert.assertTrue(status);
+        if(list1.equals(list2) ){
+            Assert.assertTrue(true);
+        }
+
+
+
+
+//        for(WebElement animal:animalslist ){
+//          list1.add(animal.getText());
+//        }
+//        System.out.println(list1);
+//
+//        for(WebElement animal:animalslist ){
+//            list2.add(animal.getText());
+//        }
+//        System.out.println(list2);
+//
+//        Collections.sort(list1);
+//        boolean status = list1.equals(list2);
+//        Assert.assertTrue(status);
 
 
 

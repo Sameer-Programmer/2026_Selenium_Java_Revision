@@ -1,0 +1,63 @@
+CHROME OPTIONS - REVISION NOTES
+
+ChromeOptions is a Selenium class used to customize the Chrome browser before launching it.
+
+1. Headless Mode
+----------------
+options.addArguments("--headless=new");
+
+Purpose:
+- Runs the browser without opening the UI.
+- Useful in CI/CD pipelines and faster execution.
+
+2. Incognito Mode
+-----------------
+options.addArguments("--incognito");
+
+Purpose:
+- Launches Chrome in Incognito mode.
+- No cache, cookies, or browsing history are stored.
+
+3. Accept Insecure SSL Certificates
+-----------------------------------
+options.setAcceptInsecureCerts(true);
+
+Purpose:
+- Bypasses SSL certificate warnings.
+- Useful in QA/UAT environments with self-signed certificates.
+
+4. Remove "Chrome is being controlled by automated test software" Message
+-------------------------------------------------------------------------
+options.setExperimentalOption("excludeSwitches",
+        new String[]{"enable-automation"});
+
+Purpose:
+- Removes the automation-controlled notification displayed by Chrome.
+
+OTHER COMMONLY USED CHROME OPTIONS
+----------------------------------
+
+options.addArguments("--start-maximized");
+Purpose:
+- Opens browser in maximized mode.
+
+options.addArguments("--disable-notifications");
+Purpose:
+- Disables browser notifications.
+
+options.addArguments("--disable-popup-blocking");
+Purpose:
+- Disables popup blocking.
+
+options.addArguments("--guest");
+Purpose:
+- Opens Chrome in Guest mode.
+
+options.addArguments("--window-size=1920,1080");
+Purpose:
+- Launches browser with a custom window size.
+
+INTERVIEW DEFINITION
+--------------------
+ChromeOptions is a Selenium class used to customize the behavior of the Chrome browser
+before launching it, such as running in headless mode, incognito mode, handling SSL certificates, disabling notifications, and configuring browser startup settings.

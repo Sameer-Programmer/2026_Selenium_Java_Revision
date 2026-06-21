@@ -20,12 +20,13 @@ public class Test20_PaginationWebTable_3 {
         int count = 0;
 
         while(flag){
-          WebElement nextButton =  driver.findElement(By.xpath("//button[@data-dt-idx='next']"));
-         // WebElement nextButton2 =   driver.findElement(By.cssSelector("[data-dt-idx='next'][tabindex='-1']"));
+
             List<WebElement> tbodyrows = driver.findElements(By.xpath("//div[@class='dt-container']//tbody//tr"));
             System.out.println(tbodyrows.size());
             count =count+tbodyrows.size();
 
+
+            WebElement nextButton =  driver.findElement(By.xpath("//button[@data-dt-idx='next']"));
             if(nextButton.getAttribute("class").contains("disabled")){
                 break;
             }

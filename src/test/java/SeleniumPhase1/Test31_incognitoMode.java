@@ -7,12 +7,12 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import java.time.Duration;
 
 public class Test31_incognitoMode {
-    static void main(String[] args) throws InterruptedException {
+  public   static void main(String[] args) throws InterruptedException {
         String url = "https://testautomationpractice.blogspot.com/#";
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--incognito");
-        options.setExperimentalOption("excludeSwitches",
-                new String[]{"enable-automation"});
+      options.setExperimentalOption("excludeSwitches"
+              ,new String[]{"enable-automation"});
 
         WebDriver driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));

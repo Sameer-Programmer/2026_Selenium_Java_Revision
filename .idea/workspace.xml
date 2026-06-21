@@ -8,8 +8,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a5f9576-082d-4bb1-b8f8-57e0c3962a4f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/FastRack_Revision/page4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Sameer_Fun/Test16_Pagination_SelectCheckbox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPhase1/Test24_SliderActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPhase1/Test24_Mouse_SliderActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Sameer_Fun/Baseclass_AutomationPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Sameer_Fun/Baseclass_AutomationPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Sameer_Fun/Test13_SortedChecklist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Sameer_Fun/Test13_SortedChecklist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPhase1/Test15_1_StaticWebTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPhase1/Test18_PaginationWebTable_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPhase1/Test18_PaginationWebTable_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPhase1/Test20_PaginationWebTable_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPhase1/Test20_PaginationWebTable_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPhase1/Test31_incognitoMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPhase1/Test31_incognitoMode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,6 +179,7 @@
     "Application.Test30_HandlingSSL_browserOptions.executor": "Run",
     "Application.Test31.executor": "Run",
     "Application.Test31_incgnitoMode.executor": "Run",
+    "Application.Test31_incognitoMode.executor": "Run",
     "Application.Test33_NestedShadowRoot.executor": "Run",
     "Application.Test35_DataDriven.executor": "Run",
     "Application.Test36_ReadingPropertiesFile.executor": "Run",
@@ -244,6 +252,8 @@
     "TestNG.Test14_WebTable_Print.m1.executor": "Run",
     "TestNG.Test15_WebTableScenario1.m1.executor": "Run",
     "TestNG.Test15_WebTableScenario1.m2.executor": "Run",
+    "TestNG.Test16_Pagination_SelectCheckbox.executor": "Run",
+    "TestNG.Test16_Pagination_SelectCheckbox.selectLaptopCheckbox.executor": "Run",
     "TestNG.Test1_AlphabeticalOrder.executor": "Run",
     "TestNG.Test2_Priority.executor": "Run",
     "TestNG.Test4.executor": "Run",
@@ -260,7 +270,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/FastRack_Revision",
+    "last_opened_file_path": "C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26",
     "onboarding.tips.debug.path": "C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
@@ -284,9 +294,9 @@
       <recent name="C:\Users\Mohamed Imran\IdeaProjects\Ymg_18_May_26" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Test15_WebTableScenario1.m2">
-    <configuration name="Test15_1_StaticWebTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SeleniumPhase1.Test15_1_StaticWebTable" />
+  <component name="RunManager" selected="Application.Test31_incognitoMode">
+    <configuration name="Test31_incognitoMode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SeleniumPhase1.Test31_incognitoMode" />
       <module name="Ymg_18_May_26_Selenium_Java" />
       <extension name="coverage">
         <pattern>
@@ -316,42 +326,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test14_WebTable_Print.m1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ymg_18_May_26_Selenium_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sameer_Fun.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Sameer_Fun" />
-      <option name="MAIN_CLASS_NAME" value="Sameer_Fun.Test14_WebTable_Print" />
-      <option name="METHOD_NAME" value="m1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test15_WebTableScenario1.m1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ymg_18_May_26_Selenium_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sameer_Fun.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Sameer_Fun" />
-      <option name="MAIN_CLASS_NAME" value="Sameer_Fun.Test15_WebTableScenario1" />
-      <option name="METHOD_NAME" value="m1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test15_WebTableScenario1.m2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ymg_18_May_26_Selenium_Java" />
       <extension name="coverage">
@@ -370,13 +344,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test16_Pagination_SelectCheckbox" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ymg_18_May_26_Selenium_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sameer_Fun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Sameer_Fun" />
+      <option name="MAIN_CLASS_NAME" value="Sameer_Fun.Test16_Pagination_SelectCheckbox" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test16_Pagination_SelectCheckbox.selectLaptopCheckbox" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ymg_18_May_26_Selenium_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sameer_Fun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Sameer_Fun" />
+      <option name="MAIN_CLASS_NAME" value="Sameer_Fun.Test16_Pagination_SelectCheckbox" />
+      <option name="METHOD_NAME" value="selectLaptopCheckbox" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Test15_WebTableScenario1.m2" />
-        <item itemvalue="TestNG.Test15_WebTableScenario1.m1" />
-        <item itemvalue="TestNG.Test14_WebTable_Print.m1" />
-        <item itemvalue="Application.Test15_1_StaticWebTable" />
+        <item itemvalue="Application.Test31_incognitoMode" />
+        <item itemvalue="TestNG.Test16_Pagination_SelectCheckbox.selectLaptopCheckbox" />
+        <item itemvalue="TestNG.Test16_Pagination_SelectCheckbox" />
         <item itemvalue="TestNG.Test13_SortedChecklist.m1" />
+        <item itemvalue="TestNG.Test15_WebTableScenario1.m2" />
       </list>
     </recent_temporary>
   </component>
@@ -389,6 +398,13 @@
       <updated>1779073175594</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="java:org.testng:testng" />
+    <option featureType="dependencySupport" implementationName="java:io.reactivex.rxjava3:rxjava" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -412,6 +428,11 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Sameer_Fun/Test16_Pagination_SelectCheckbox.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

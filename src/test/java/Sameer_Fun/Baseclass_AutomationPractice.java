@@ -3,6 +3,7 @@ package Sameer_Fun;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
@@ -14,6 +15,9 @@ public class Baseclass_AutomationPractice {
     protected WebDriver driver;
     @BeforeClass
     public  void setup(){
+       // ChromeOptions options = new ChromeOptions();
+       // options.addArguments("--headless=new");
+       // driver = new ChromeDriver(options);
         driver = new ChromeDriver();
         driver.get("https://testautomationpractice.blogspot.com/");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));

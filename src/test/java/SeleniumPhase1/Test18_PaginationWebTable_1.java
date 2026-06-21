@@ -22,6 +22,7 @@ public class Test18_PaginationWebTable_1 {
 
        List< WebElement> rows = driver.findElements(By.xpath("//div[@class='dt-container']//tbody//tr"));
         System.out.println(rows.size());
+
        WebElement dropdown = driver.findElement(By.cssSelector("[aria-controls = 'example'][id ='dt-length-0']"));
         Select select = new Select(dropdown); //[aria-controls = 'example'][id ='dt-length-0']
         String value1 =select.getOptions().get(0).getText();

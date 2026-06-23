@@ -9,7 +9,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 public class Test35_DataDriven_Reading {
-    static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {
 
         String projectPath = System.getProperty("user.dir");
         FileInputStream fis = new FileInputStream(projectPath+"\\TestData\\TestDataFile.xlsx");
@@ -17,9 +17,9 @@ public class Test35_DataDriven_Reading {
         XSSFSheet sheet = workbook.getSheet("Sheet1");
 
         int totalRows = sheet.getLastRowNum();
-        int totalCells = sheet.getRow(1).getLastCellNum();
+        int totalCellsinaRow= sheet.getRow(1).getLastCellNum();
         System.out.println(totalRows+"TotalRows");
-        System.out.println(totalCells+"TotalCells");
+        System.out.println(totalCellsinaRow+"TotalCells");
 
 
         // rows Counting from 0
@@ -27,7 +27,7 @@ public class Test35_DataDriven_Reading {
 
         for(int r = 0 ; r<=totalRows; r++){
             XSSFRow row = sheet.getRow(r);
-            for(int c =0; c<totalCells; c++){
+            for(int c =0; c<totalCellsinaRow; c++){
                 XSSFCell cell = row.getCell(c);
                 System.out.println(cell.toString());
             }

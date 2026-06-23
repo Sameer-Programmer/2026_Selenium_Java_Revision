@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Test17 {
+public class Test17_ShadowDom_Concept1 {
     public static void main(String[] args){
 
         WebDriver driver = new ChromeDriver();

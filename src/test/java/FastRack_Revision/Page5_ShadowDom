@@ -1,0 +1,90 @@
+Shadow DOM + Selenium 4
+
+
+
+1. Locate Shadow Host
+2. Use getShadowRoot()
+
+Note:
+XPath is not supported inside ShadowRoot.
+Prefer CSS Selectors.
+
+3. Store in SearchContext
+4. Use CSS Selectors to locate elements
+
+WebElement host = driver.findElement(By.cssSelector("#shadow-root"));
+SearchContext shadowRoot = host.getShadowRoot();
+WebElement ele = shadowRoot.findElement(By.cssSelector("span"));
+
+
+//
+NESTED SHADOW DOM HANDLING - SELENIUM 4
+
+1. Locate First Shadow Host
+2. Use getShadowRoot()
+3. Store it in SearchContext
+4. Locate Second Shadow Host inside First Shadow Root
+5. Use getShadowRoot() again
+6. Store it in another SearchContext
+7. Continue until the target element is reached
+8. Use CSS Selectors only
+
+Syntax:
+
+// First Shadow Host
+WebElement host1 = driver.findElement(By.cssSelector("#host1"));
+SearchContext root1 = host1.getShadowRoot();
+
+// Second Shadow Host
+WebElement host2 = root1.findElement(By.cssSelector("#host2"));
+SearchContext root2 = host2.getShadowRoot();
+
+// Third Shadow Host (if available)
+WebElement host3 = root2.findElement(By.cssSelector("#host3"));
+SearchContext root3 = host3.getShadowRoot();
+
+// Target Element
+WebElement ele = root3.findElement(By.cssSelector("span"));
+
+-----------------------------------------------------
+
+Example:
+
+WebElement host1 = driver.findElement(By.cssSelector("#shadow-root"));
+SearchContext root1 = host1.getShadowRoot();
+
+WebElement host2 = root1.findElement(By.cssSelector("#inner-shadow-dom"));
+SearchContext root2 = host2.getShadowRoot();
+
+WebElement element = root2.findElement(By.cssSelector("span"));
+
+System.out.println(element.getText());
+
+-----------------------------------------------------
+
+Interview Points:
+
+✔ Selenium 4 introduced getShadowRoot()
+✔ getShadowRoot() returns SearchContext
+✔ SearchContext is used to locate elements inside Shadow DOM
+✔ Nested Shadow DOMs require multiple getShadowRoot() calls
+✔ CSS Selectors are supported
+✔ XPath is NOT supported inside ShadowRoot
+✔ Works only for Open Shadow DOMs
+✔ Closed Shadow DOMs cannot be accessed directly through Selenium
+
+Flow:
+
+Shadow Host 1
+    ↓
+getShadowRoot()
+    ↓
+Shadow Root 1
+    ↓
+Shadow Host 2
+    ↓
+getShadowRoot()
+    ↓
+Shadow Root 2
+    ↓
+Target Element

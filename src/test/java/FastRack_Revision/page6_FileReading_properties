@@ -1,0 +1,137 @@
+📌 Purpose:
+Used to read data from a .properties file (Configuration File).
+
+Example:
+config.properties
+-----------------
+url=https://www.google.com
+browser=chrome
+
+----------------------------------------------------
+
+1. Get Project Root Path
+------------------------
+String projectRootPath = System.getProperty("user.dir");
+
+✔ Returns current project directory path.
+✔ Avoids hardcoding file paths.
+
+Example Output:
+C:\Users\Sameer\IdeaProjects\MyProject
+
+----------------------------------------------------
+
+2. Create Properties Object
+---------------------------
+Properties properties = new Properties();
+
+✔ Properties class is used to read key-value pairs.
+✔ Available in java.util.Properties package.
+
+----------------------------------------------------
+
+3. Open Properties File
+-----------------------
+FileInputStream fis =
+new FileInputStream(projectRootPath +
+"//resource//config.propertiesFile1");
+
+✔ FileInputStream opens the file for reading.
+✔ Throws FileNotFoundException if file doesn't exist.
+
+----------------------------------------------------
+
+4. Load Data into Properties Object
+-----------------------------------
+properties.load(fis);
+
+✔ Reads all key-value pairs from the file.
+✔ Stores them in memory.
+
+Example:
+url=https://google.com
+browser=chrome
+
+----------------------------------------------------
+
+5. Read Value using Key
+-----------------------
+properties.getProperty("url");
+
+✔ Returns value associated with the key.
+
+Example:
+url=https://google.com
+
+Output:
+https://google.com
+
+----------------------------------------------------
+
+6. Print Value
+--------------
+System.out.println(properties.getProperty("url"));
+
+✔ Prints the URL value from properties file.
+
+----------------------------------------------------
+
+Exceptions
+----------
+IOException
+    ├── FileNotFoundException
+    └── Other File Reading Errors
+
+Current Code:
+public static void main(String[] args) throws IOException
+
+✔ Handles all file-related exceptions.
+
+----------------------------------------------------
+
+Flow of Execution
+-----------------
+Step 1 -> Get Project Path
+Step 2 -> Create Properties Object
+Step 3 -> Open Properties File using FileInputStream
+Step 4 -> Load File Data
+Step 5 -> Read Property Value using Key
+Step 6 -> Print Value
+
+----------------------------------------------------
+
+Interview Questions
+-------------------
+
+Q1. Why use Properties File?
+Ans:
+To store configuration data separately from code.
+Examples:
+- URL
+- Browser
+- Username
+- Password
+- Environment Details
+
+Q2. Why use System.getProperty("user.dir")?
+Ans:
+To get project root directory dynamically instead of hardcoding paths.
+
+Q3. What does properties.load() do?
+Ans:
+Loads key-value pairs from a properties file into memory.
+
+Q4. Difference between getProperty() and setProperty()?
+Ans:
+getProperty() → Reads value
+setProperty() → Adds/Updates value
+
+Q5. Which package contains Properties class?
+Ans:
+java.util.Properties
+
+----------------------------------------------------
+
+One-Line Summary:
+Properties File = Store Config Data ➜ FileInputStream Opens File ➜
+Properties.load() Reads Data ➜ getProperty() Retrieves Value.

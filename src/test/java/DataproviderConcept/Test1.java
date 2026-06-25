@@ -52,10 +52,5 @@ public class Test1 {
     }
 
 
-    @Test(dataProvider = "LoginData1",
-            dataProviderClass = DataProvider_UtilityClass.class)
-    public void m2(){
-
-    }
 
 }

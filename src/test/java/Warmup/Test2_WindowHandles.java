@@ -8,7 +8,7 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Set;
 
-public class Test2 {
+public class Test2_WindowHandles {
     static void main(String[] args) {
 
         WebDriver driver = new ChromeDriver();

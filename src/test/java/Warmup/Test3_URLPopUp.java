@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class Test3 {
+public class Test3_URLPopUp {
     static void main(String[] args) throws InterruptedException {
 
         // Syntax = https://userName:password@the-internet.herokuapp.com/

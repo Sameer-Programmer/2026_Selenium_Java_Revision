@@ -8,27 +8,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a5f9576-082d-4bb1-b8f8-57e0c3962a4f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DataproviderConcept/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DataproviderConcept/UtilityPackage/DataProvider_UtilityClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNg_Theory/Page5_DataProviderNotes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNg_Theory/Page6_DataproviderNotes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataProviderConceptWarmUp/DataproviderManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataProviderConceptWarmUp/Ecommerce_LogintestDataFie.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataProviderConceptWarmUp/ExcelManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataProviderConceptWarmUp/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataProviderConceptWarmUp/WorkFlow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataproviderConcept/Test2_Step3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataproviderConcept/UtilityPackage/ExcelUtility_Step1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataproviderConcept/UtilityPackage/Step2_DataProviderClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Warmup/Test9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_2/DataproviderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_Part3/DataproviderDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_2/ParamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_Part3/ParamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_2/page1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_Part3/page1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_2/testng3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_Part3/testng3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_3/ExtentReportManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_Part4/ExtentReportManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_3/MyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_Part4/MyListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_3/Notes_ExtentReport" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_Part4/Notes_ExtentReport" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_3/Notes_Listner" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_Part4/Notes_Listner" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_3/OrangHRM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_Part4/OrangHRM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_3/Testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_Part4/Testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_3/TestngExtent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_Part4/TestngExtent.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_Part2/File2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_Part2/File2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Selenium_Java_TestNG_Part2.Test1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Selenium_Java_TestNG_Part2.Test1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DataproviderConcept/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DataproviderConcept/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DataproviderConcept/UtilityPackage/DataProvider_UtilityClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DataproviderConcept/UtilityPackage/DataProvider_UtilityClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Warmup/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Warmup/Test2_WindowHandles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Warmup/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Warmup/Test3_URLPopUp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,6 +257,7 @@
     "TestNG.ParamTest.executor": "Run",
     "TestNG.Test1.executor": "Run",
     "TestNG.Test1.m1.executor": "Run",
+    "TestNG.Test1.performLogin.executor": "Run",
     "TestNG.Test10_MouseActions.TestMouseActions.executor": "Run",
     "TestNG.Test11_FileUploads.MultipleFilesUplaod.executor": "Run",
     "TestNG.Test11_FileUploads.executor": "Run",
@@ -278,6 +272,7 @@
     "TestNG.Test16_Pagination_SelectCheckbox.selectLaptopCheckbox.executor": "Run",
     "TestNG.Test1_AlphabeticalOrder.executor": "Run",
     "TestNG.Test2_Priority.executor": "Run",
+    "TestNG.Test2_Step3.m1.executor": "Run",
     "TestNG.Test4.executor": "Run",
     "TestNG.Test4.m1.executor": "Run",
     "TestNG.Test4_HardAssertions.executor": "Run",
@@ -290,17 +285,18 @@
     "TestNG.Test8_ScreenshotHandling.cpatureScreenshot.executor": "Run",
     "TestNG.Test9.captureElement.executor": "Run",
     "TestNG.Test9.capturescreenshot.executor": "Run",
+    "TestNG.Test9.m1.executor": "Debug",
     "TestNG.TestNg_WorkFlow.executor": "Run",
     "copilot.chat.legacySessionMetadata.migrated": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26",
+    "last_opened_file_path": "C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/DataProviderConceptWarmUp",
     "onboarding.tips.debug.path": "C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.editor"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -310,6 +306,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mohamed Imran\IdeaProjects\Ymg_18_May_26\src\test\java\DataProviderConceptWarmUp" />
       <recent name="C:\Users\Mohamed Imran\IdeaProjects\Ymg_18_May_26\src\test\java\FastRack_Revision" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -319,7 +316,20 @@
       <recent name="C:\Users\Mohamed Imran\IdeaProjects\Ymg_18_May_26" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Test1.m1">
+  <component name="RunManager" selected="Application.Test11_CurrentTime">
+    <configuration name="Test11_CurrentTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeZone.Test11_CurrentTime" />
+      <module name="Ymg_18_May_26_Selenium_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PracticeZone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/Selenium_Java_TestNG_1/Test_1_2_3_Squential_testng.xml" type="TestNG" nameIsGenerated="true">
       <module name="Ymg_18_May_26_Selenium_Java" />
       <shortenClasspath name="NONE" />
@@ -380,24 +390,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataproviderDemo.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ymg_18_May_26_Selenium_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Selenium_Java_TestNG_Part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Selenium_Java_TestNG_2" />
-      <option name="MAIN_CLASS_NAME" value="Selenium_Java_TestNG_Part3.DataproviderDemo" />
-      <option name="METHOD_NAME" value="testLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test1.m1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ymg_18_May_26_Selenium_Java" />
       <extension name="coverage">
@@ -416,24 +408,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test6_Dependency" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test1.performLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ymg_18_May_26_Selenium_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Selenium_Java_TestNG_Part1.*" />
+          <option name="PATTERN" value="DataProviderConceptWarmUp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Selenium_Java_TestNG_1" />
-      <option name="MAIN_CLASS_NAME" value="Selenium_Java_TestNG_Part1.Test6_Dependency" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="DataProviderConceptWarmUp" />
+      <option name="MAIN_CLASS_NAME" value="DataProviderConceptWarmUp.Test1" />
+      <option name="METHOD_NAME" value="performLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test7_Assertions" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test2_Step3.m1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ymg_18_May_26_Selenium_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataproviderConcept.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DataproviderConcept" />
+      <option name="MAIN_CLASS_NAME" value="DataproviderConcept.Test2_Step3" />
+      <option name="METHOD_NAME" value="m1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test9.m1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ymg_18_May_26_Selenium_Java" />
       <extension name="coverage">
         <pattern>
@@ -442,25 +453,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Warmup" />
-      <option name="MAIN_CLASS_NAME" value="Warmup.Test7_Assertions" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test7_Groups_1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ymg_18_May_26_Selenium_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Selenium_Java_TestNG_Part1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Selenium_Java_TestNG_1" />
-      <option name="MAIN_CLASS_NAME" value="Selenium_Java_TestNG_Part1.Test7_Groups_1" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="Warmup.Test9" />
+      <option name="METHOD_NAME" value="m1" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -469,11 +464,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test11_CurrentTime" />
+        <item itemvalue="TestNG.Test1.performLogin" />
+        <item itemvalue="TestNG.Test2_Step3.m1" />
+        <item itemvalue="TestNG.Test9.m1" />
         <item itemvalue="TestNG.Test1.m1" />
-        <item itemvalue="TestNG.DataproviderDemo.testLogin" />
-        <item itemvalue="TestNG.Test7_Groups_1" />
-        <item itemvalue="TestNG.Test6_Dependency" />
-        <item itemvalue="TestNG.Test7_Assertions" />
       </list>
     </recent_temporary>
   </component>

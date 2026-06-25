@@ -24,6 +24,23 @@ public class DataproviderDemo {
 //driver.get("https://tutorialsninja.com/demo/index.php?route=account/login");
     }
 
+
+
+    @DataProvider(name = "dp1", indices = {0, 3})
+    public Object[][] dataProviderMethod() {
+
+        Object[][] data = {
+                {"sameeridea7@gmai.com", "Sam123#"},
+                {"shaikbopr@gmal.com", "Fox345"},
+                {"sameer@outlook.com", "Tesr567"},
+                {"prapoubucowou-8216@yopmail.com", "Sameera105@"},
+                {"1", "123.50"},
+                {"c", "true"}
+        };
+
+        return data;
+    }
+
     @Test(dataProvider = "dp1")
     void testLogin(String email, String password) throws InterruptedException {
         driver.get("https://tutorialsninja.com/demo/index.php?route=account/login");
@@ -57,20 +74,6 @@ public class DataproviderDemo {
     }
 
 
-    @DataProvider(name = "dp1", indices = {0, 3})
-    public Object[][] dataProviderMethod() {
-
-        Object[][] data = {
-                {"sameeridea7@gmai.com", "Sam123#"},
-                {"shaikbopr@gmal.com", "Fox345"},
-                {"sameer@outlook.com", "Tesr567"},
-                {"prapoubucowou-8216@yopmail.com", "Sameera105@"},
-                {"1", "123.50"},
-                {"c", "true"}
-        };
-
-        return data;
-    }
 
 
 }

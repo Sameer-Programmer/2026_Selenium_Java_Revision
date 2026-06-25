@@ -1,4 +1,4 @@
-package Warmup;
+package SeleniumPhase1;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,7 +10,7 @@ import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Test6_FileDownload {
+public class Test37_FileDownload {
     public static void main (String [] args) throws InterruptedException {
         String downloadPath = System.getProperty("user.dir")+File.separator+"Downloads";
 
@@ -18,9 +18,9 @@ public class Test6_FileDownload {
         //prefs.put("profile.default_content_settings.popoups",0);
         prefs.put("profile.default_content_settings.popups", 0);
         prefs.put("download.default_directory", downloadPath);
-        prefs.put("download.prompt_for_download", false);
-        prefs.put("download.directory_upgrade", true);
-        prefs.put("safebrowsing.enabled", true);
+//        prefs.put("download.prompt_for_download", false);
+//        prefs.put("download.directory_upgrade", true);
+//        prefs.put("safebrowsing.enabled", true);
 
         ChromeOptions options = new ChromeOptions();
         options.setExperimentalOption("prefs",prefs);
@@ -33,15 +33,11 @@ public class Test6_FileDownload {
         Thread.sleep(5000);
 
         File file = new File(downloadPath+File.separator+"sampleFile.jpeg");
-
         if(file.exists()){
             System.out.println("File Exist Pass");
         }else {
             System.out.println("Test Fail");
         }
-
-
-
 
 
     }

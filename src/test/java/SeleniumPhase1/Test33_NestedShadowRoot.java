@@ -38,6 +38,7 @@ public class Test33_NestedShadowRoot {
         WebElement shadowHostparent = driver.findElement(By.cssSelector(".MuiBox-root[id='shadow-root']"));
         SearchContext shadowRootParent = shadowHostparent.getShadowRoot();
         System.out.println("ShadowRootParentFound");
+
         SearchContext shadowRootchild = shadowRootParent.findElement(By.cssSelector("#inner-shadow-dom")).getShadowRoot();
         shadowRootchild.findElement(By.cssSelector("#nested-shadow-element")).click();
         System.out.println("Success");

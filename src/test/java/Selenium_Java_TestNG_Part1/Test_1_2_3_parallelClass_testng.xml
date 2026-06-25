@@ -3,9 +3,9 @@
 <suite name="mySuit " parallel="classes">
     <test name="myTest" thread-count="3">
         <classes>
-            <class name="Selenium_Java_TestNG_1.Test1_AlphabeticalOrder"/>
-            <class name="Selenium_Java_TestNG_1.Test2_Priority"/>
-            <class name="Selenium_Java_TestNG_1.Test3_TestNg_WorkFlow"/>
+            <class name="Selenium_Java_TestNG_Part1.Test1_AlphabeticalOrder"/>
+            <class name="Selenium_Java_TestNG_Part1.Test2_Priority"/>
+            <class name="Selenium_Java_TestNG_Part1.Test3_TestNg_WorkFlow"/>
         </classes>
     </test>
 </suite>

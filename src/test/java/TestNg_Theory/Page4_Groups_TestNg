@@ -1,0 +1,121 @@
+TESTNG GROUPS - INCLUDE AND EXCLUDE
+
+1. INCLUDE GROUP
+
+The `<include>` tag is used to execute only the test methods that belong to a specific group.
+
+Syntax:
+
+```xml
+<groups>
+    <run>
+        <include name="Sanity"/>
+    </run>
+</groups>
+```
+
+Explanation:
+
+* Wherever the group "Sanity" is present, those test methods will execute.
+* Test methods belonging only to other groups will not execute.
+
+Example:
+
+```java
+@Test(groups = {"Sanity"})
+public void m1(){}
+
+@Test(groups = {"Regression"})
+public void m2(){}
+
+@Test(groups = {"Regression","Sanity"})
+public void m3(){}
+```
+
+If you include the "Sanity" group:
+
+Methods Executed:
+
+* m1()
+* m3()
+
+Methods Skipped:
+
+* m2()
+
+---
+
+2. EXCLUDE GROUP
+
+The `<exclude>` tag is used to skip all test methods that belong to a specific group.
+
+Syntax:
+
+```xml
+<groups>
+    <run>
+        <exclude name="Regression"/>
+    </run>
+</groups>
+```
+
+Explanation:
+
+* All methods belonging to the "Regression" group will be skipped.
+* Only methods that do not belong to the Regression group will execute.
+
+Example:
+
+```java
+@Test(groups = {"Sanity"})
+public void m1(){}
+
+@Test(groups = {"Regression"})
+public void m2(){}
+
+@Test(groups = {"Regression","Sanity"})
+public void m3(){}
+```
+
+Methods Executed:
+
+* m1()
+
+Methods Skipped:
+
+* m2() (Regression)
+* m3() (Regression + Sanity)
+
+Important:
+If a test method belongs to both "Regression" and "Sanity", and you exclude "Regression", that method will also be skipped because it belongs to the excluded group.
+
+---
+
+3. INCLUDE AND EXCLUDE TOGETHER
+
+Syntax:
+
+```xml
+<groups>
+    <run>
+        <include name="Sanity"/>
+        <exclude name="Regression"/>
+    </run>
+</groups>
+```
+
+Explanation:
+
+* TestNG first selects all methods belonging to the "Sanity" group.
+* It then removes any methods that also belong to the "Regression" group.
+
+Final Result:
+
+* Only methods that belong exclusively to the "Sanity" group will execute.
+* Methods that belong to both "Sanity" and "Regression" will not execute.
+
+Interview Point:
+
+* TestNG group names are case-sensitive.
+* "Sanity" and "sanity" are considered different groups.
+* A test method belonging to multiple groups is executed only once, even if multiple included groups match.

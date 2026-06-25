@@ -1,0 +1,36 @@
+Hard Assertions in TestNG
+
+- Hard Assertions use the Assert class (Assert.assertEquals(), Assert.assertTrue(), etc.).
+- If a Hard Assertion fails, execution immediately stops in the current @Test method.
+- All remaining statements in that @Test method are skipped.
+- TestNG marks the current test method as FAILED.
+- TestNG then executes the next @Test method (unless there is a dependency).
+
+Assert is a normal class in TestNG that provides static assertion methods such as assertEquals(), assertTrue(),
+and assertFalse().
+ Since these methods are static, they are called using the class name without creating an object.
+
+Example:
+
+@Test
+public void test1() {
+    System.out.println("Step 1");
+    Assert.assertTrue(false);   // Assertion fails
+    System.out.println("Step 2"); // Skipped
+}
+
+@Test
+public void test2() {
+    System.out.println("Test2 started");
+}
+
+Output:
+
+Step 1
+test1 - FAILED
+Test2 started
+
+Key Points:
+1. Current @Test method stops immediately after a Hard Assertion failure.
+2. Remaining lines in the same @Test method are not executed.
+3. TestNG continues with the next @Test method.

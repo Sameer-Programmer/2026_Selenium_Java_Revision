@@ -11,7 +11,7 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Set;
 
-public class Test1 {
+public class Test1_Basics_Drivermethods {
     static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
         driver.get("https://testautomationpractice.blogspot.com/");

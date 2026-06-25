@@ -10,7 +10,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.List;
 
-public class Practice1 {
+public class Practice1_BrokenLinks {
     public static void main(String[] args) throws IOException {
         WebDriver driver = new ChromeDriver();
         driver.get("https://testautomationpractice.blogspot.com/");

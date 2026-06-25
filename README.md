@@ -92,7 +92,7 @@ The project adheres to a standard Maven directory structure, facilitating easy n
 │           ├── Sameer_Fun/                # Additional Selenium WebDriver test cases and exercises
 │           ├── SeleniumPhase1/            # Comprehensive Selenium WebDriver test cases with TestNG
 │           ├── SeleniumPhase2/            # Further Selenium WebDriver test cases
-│           ├── Selenium_Java_TestNG_1/      # TestNG specific features and examples
+│           ├── Selenium_Java_TestNG_Part1/      # TestNG specific features and examples
 │           └── TestNgXMl_package/         # TestNG XML configuration files
 ├── FilesToTest/                     # Sample files used for testing purposes (e.g., Doctor.pdf, Patient.txt)
 ├── Screenshots/                     # Screenshots captured during test execution (e.g., File1.png, TablePage.png)
@@ -165,7 +165,7 @@ This section provides a detailed summary of the Selenium test cases found in the
 
 This section details the TestNG test cases and configuration files within the repository, highlighting advanced features for test management.
 
-### Selenium_Java_TestNG_1
+### Selenium_Java_TestNG_Part1
 
 | Test File | Description |
 | :--- | :--- |

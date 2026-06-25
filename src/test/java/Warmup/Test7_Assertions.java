@@ -1,4 +1,49 @@
 package Warmup;
 
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
 public class Test7_Assertions {
+
+
+
+    @Test
+    public void m1(){
+        int a =10;
+        int b =20;
+        int total = a+b;
+        Assert.assertEquals(40,30); // Here condition false - Next line wont Execute the Programm shift to next method
+        Assert.assertTrue(true);
+
+    }
+
+    @Test
+    public void m2(){
+        int a =10;
+        int b =20;
+        int total = a+b;
+        SoftAssert softAssert = new SoftAssert();
+        softAssert.assertEquals(40,30);
+        Assert.assertTrue(true);
+
+        softAssert.assertAll();  // Here finally after Executing all steps - test mark as Fail
+
+    }
+
+    @Test
+    public void m3(){
+        int a =10;
+        int b =20;
+        int total = a+b;
+        SoftAssert softAssert = new SoftAssert();
+        softAssert.assertEquals(40,30);
+        Assert.assertTrue(true);
+
+        // Here there is not softAssert.asserall() -- the test case will pass
+
+    }
+
+
+
 }

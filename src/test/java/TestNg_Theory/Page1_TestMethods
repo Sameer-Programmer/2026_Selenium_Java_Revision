@@ -1,0 +1,19 @@
+// TestNG Execution Order
+
+@BeforeSuite    // Runs once before the <suite> tag
+
+@BeforeTest     // Runs before each <test> tag
+
+@BeforeClass    // Runs before each class
+
+@BeforeMethod   // Runs before each @Test method
+
+@Test           // Test case execution
+
+@AfterMethod    // Runs after each @Test method
+
+@AfterClass     // Runs after each class
+
+@AfterTest      // Runs after each <test> tag
+
+@AfterSuite     // Runs once after the <suite> tag

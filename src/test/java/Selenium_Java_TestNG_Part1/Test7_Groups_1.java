@@ -10,9 +10,9 @@ public class Test7_Groups_1 {
         System.out.println("Sanity--G1");
     }
 
-    @Test(priority = 2, groups = {"Sanity"})
+    @Test(priority = 2, groups = {"Sanity"}, dependsOnMethods = {"m1"})
     public void  m2(){
-        System.out.println("Sanity-- G1");
+        System.out.println("Sanity-- G1_Second one");
     }
 
 }

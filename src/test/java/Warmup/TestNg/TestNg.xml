@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Warmup">
+    <parameter name="browser" value="CHROME"></parameter>
+    <test name="DemoParametertest">
+        <groups>
+            <run>
+                <include name="Master"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="Warmup.Test10"></class>
+        </classes>
+    </test>
+</suite>

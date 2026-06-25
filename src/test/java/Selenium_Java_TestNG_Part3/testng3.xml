@@ -6,14 +6,14 @@
     <test name="Test1">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="Selenium_Java_TestNG_2.ParamTest"/>
+            <class name="Selenium_Java_TestNG_Part3.ParamTest"/>
         </classes>
     </test>
     <!-- This is another test -->
     <test  name="Test2">
         <parameter name="browser" value="edge"></parameter>
         <classes>
-            <class name="Selenium_Java_TestNG_2.ParamTest"/>
+            <class name="Selenium_Java_TestNG_Part3.ParamTest"/>
         </classes>
     </test>
 </suite>

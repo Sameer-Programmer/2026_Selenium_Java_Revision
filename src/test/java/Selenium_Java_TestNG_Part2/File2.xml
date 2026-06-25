@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="DemoSuite">
+<suite name="DemoSuite" parallel="tests">
     <test name="DemoTest1">
         <groups>
             <run>
                 <include name="Sanity">
                     <classes>
-                        <class name="Pacjage.className "></class>
+                        <class name="Selenium_Java_TestNG_Part2.Test1"></class>
                     </classes>
                 </include>
             </run>

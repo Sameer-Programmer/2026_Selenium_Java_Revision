@@ -1,0 +1,108 @@
+Dataprovider is a Method in TestNg
+It is Used to Pass the Multiple sets of Data
+
+Rules To Follpw and Remember
+
+1- Denoted by @Dataprovider before the Method
+2- Dataprovider Method Return always Data so we have to return this
+3 - Generallly we use Mainly Two Dimensinal Data like usename ,pasword so we taje the datatype as Object[][]
+
+
+This Below is the syntax
+
+        @DataProvider
+        public Object[][] dataproviderMethod1(){
+
+            Object[][] data = {
+                    {},
+                    {}
+            };
+            return data;
+        }
+
+        ============================
+ ==========================
+ TestNG DataProvider Notes
+ ==========================
+
+ DataProvider is a Method in TestNG.
+
+ Purpose:
+ - Used to pass multiple sets of test data to a single @Test method.
+ - Avoids writing multiple test methods with different inputs.
+ - Supports Data-Driven Testing.
+
+ Rules to Follow and Remember:
+
+ 1. DataProvider Method is denoted by @DataProvider annotation.
+
+ 2. DataProvider method always returns data.
+    Therefore, the return type is usually Object[][].
+
+ 3. Generally, we use Two-Dimensional data because each row represents one test execution
+     and each column represents one parameter.
+    Example:
+    Username | Password
+    sameer   | pass123
+    admin    | admin123
+
+ 4. Each row in Object[][] is executed once.
+    If there are 5 rows, the @Test method executes 5 times.
+
+ 5. The number of parameters in the @Test method should match the number of columns in the DataProvider.
+
+ 6. To connect a @Test method with a DataProvider:
+    Use:
+    @Test(dataProvider = "dataproviderMethod1")
+
+ 7. DataProvider can be created:
+    - Inside the same class.
+    - In a different class using:
+      dataProviderClass = ClassName.class
+
+ 8. DataProvider can return data from:
+    - Hardcoded values
+    - Excel files
+    - Database
+    - JSON
+    - CSV
+    - API response
+
+ 9. Object is used because it can store different data types such as:
+    - String
+    - Integer
+    - Boolean
+    - Double
+    - etc.
+
+ Syntax:
+
+ @DataProvider
+ public Object[][] dataproviderMethod1() {
+
+     Object[][] data = {
+         {"sameer", "pass123"},
+         {"admin", "admin123"}
+     };
+
+     return data;
+ }
+
+ Using DataProvider:
+
+ @Test(dataProvider = "dataproviderMethod1")
+ public void login(String username, String password) {
+
+     System.out.println(username);
+     System.out.println(password);
+
+ }
+
+ Interview Points:
+
+ ✔ DataProvider is used for Data-Driven Testing.
+ ✔ Return type is generally Object[][].
+ ✔ Each row executes the test once.
+ ✔ Each column maps to one parameter of the @Test method.
+ ✔ Can be used from the same class or another class.
+ ✔ Helps reduce duplicate test methods and improves code reusability.

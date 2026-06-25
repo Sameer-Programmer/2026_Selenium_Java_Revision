@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <listeners>
-        <listener class-name="Selenium_Java_TestNG_3.MyListener"></listener>
+        <listener class-name="Selenium_Java_TestNG_Part4.MyListener"></listener>
     </listeners>
     <test name = "Test">
         <classes>
-            <class name="Selenium_Java_TestNG_3.OrangHRM"/>
+            <class name="Selenium_Java_TestNG_Part4.OrangHRM"/>
         </classes>
     </test>
 </suite>

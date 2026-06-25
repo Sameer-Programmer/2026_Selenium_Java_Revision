@@ -1,4 +1,4 @@
-package Selenium_Java_TestNG_2;
+package Selenium_Java_TestNG_Part3;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

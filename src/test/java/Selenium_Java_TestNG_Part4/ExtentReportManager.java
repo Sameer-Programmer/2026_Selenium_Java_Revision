@@ -1,4 +1,4 @@
-package Selenium_Java_TestNG_3;
+package Selenium_Java_TestNG_Part4;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;

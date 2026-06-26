@@ -8,7 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a5f9576-082d-4bb1-b8f8-57e0c3962a4f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNg_Theory/page8_Parameters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNg_Theory/page10_ExtentReport" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNg_Theory/page11_ExtentReports" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNg_Theory/page9_Listners" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

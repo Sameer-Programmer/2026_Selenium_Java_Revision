@@ -1,0 +1,123 @@
+=========================================
+Listener to Extent Report - Step by Step
+=========================================
+
+Step 1: Add Extent Report Dependency
+------------------------------------
+- Add the Extent Report dependency in pom.xml.
+
+Step 2: Create a Listener Class
+-------------------------------
+- Create a class (Example: ExtentReportManager).
+- Implement the ITestListener interface.
+
+Example:
+public class ExtentReportManager implements ITestListener
+
+Why?
+----
+- So that TestNG automatically notifies the Listener
+whenever a test starts, passes, fails, skips, or finishes.
+
+-------------------------------------------------------
+
+Step 3: Create the Required Objects
+-----------------------------------
+
+ExtentSparkReporter sparkReporter;
+----------------------------------
+- Creates the HTML report.
+- Responsible for the UI/design of the report.
+
+ExtentReports extent;
+---------------------
+- Main report manager.
+- Attaches the reporter.
+- Stores system information.
+- Generates the final report.
+
+ExtentTest test;
+----------------
+- Represents a single test case.
+- Logs PASS, FAIL, and SKIP status.
+
+-------------------------------------------------------
+
+Step 4: Configure the Report (onStart())
+----------------------------------------
+- Create the HTML report.
+- Set Report Title.
+- Set Report Name.
+- Set Theme.
+- Add System Information.
+- Attach the Spark Reporter to ExtentReports.
+
+This method executes only once before the test execution starts.
+
+-------------------------------------------------------
+
+Step 5: Update Test Status
+--------------------------
+
+onTestSuccess()
+---------------
+- Create a test entry.
+- Log PASS status.
+
+onTestFailure()
+---------------
+- Create a test entry.
+- Log FAIL status.
+- Log the exception.
+- (Generally attach a screenshot.)
+
+onTestSkipped()
+---------------
+- Create a test entry.
+- Log SKIP status.
+
+-------------------------------------------------------
+
+Step 6: Flush the Report (onFinish())
+-------------------------------------
+extent.flush();
+
+Why?
+----
+- Writes all the execution details to the HTML report.
+- If flush() is not called, the report will not be generated properly.
+
+-------------------------------------------------------
+
+Execution Flow
+--------------
+
+TestNG Executes Tests
+        ↓
+Listener Receives Events
+        ↓
+onStart()
+        ↓
+Create & Configure Report
+        ↓
+Test Executes
+        ↓
+onTestSuccess() / onTestFailure() / onTestSkipped()
+        ↓
+Update Extent Report
+        ↓
+onFinish()
+        ↓
+extent.flush()
+        ↓
+HTML Report Generated
+
+-------------------------------------------------------
+
+Interview Summary
+-----------------
+1. Create a Listener class by implementing ITestListener.
+2. Create ExtentSparkReporter, ExtentReports, and ExtentTest objects.
+3. Configure the report in onStart().
+4. Log PASS, FAIL, and SKIP results in the respective Listener methods.
+5. Call extent.flush() in onFinish() to generate the final HTML report.

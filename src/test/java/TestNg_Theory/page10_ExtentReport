@@ -1,0 +1,5 @@
+| Class                 | Responsibility                                         |
+| --------------------- | ------------------------------------------------------ |
+| `ExtentSparkReporter` | Creates and designs the HTML report (UI).              |
+| `ExtentReports`       | Manages the complete report and attaches the reporter. |
+| `ExtentTest`          | Creates and updates individual test case entries.      |

@@ -1,0 +1,12 @@
+How to Capture Cookies from Browser
+How to print cookies from browser
+How to add a Cookies to a browser
+How to delete specifi Cookie from the browser
+How to delete all Cookies From the browser
+
+Cookie Methods
+driver.manage().getCookies();
+driver.manage().addCookie(arg0) // Here we have to pass the cookie Object
+driver.manage().deleteCookie(arg0) // Delete specific cookie
+driver.manage().deleteCookieNamed(arg0)//Delete specific cookie  according to Name
+driver.manage().deleteAllCookies();

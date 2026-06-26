@@ -8,9 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a5f9576-082d-4bb1-b8f8-57e0c3962a4f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNg_Theory/page10_ExtentReport" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNg_Theory/page11_ExtentReports" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNg_Theory/page9_Listners" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CookiesConcept/HandlingCookies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CookiesConcept/Page1_Cookies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -246,6 +245,8 @@
     "TestNG.C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/testNg.xml.executor": "Run",
     "TestNG.DataproviderDemo.executor": "Run",
     "TestNG.DataproviderDemo.testLogin.executor": "Run",
+    "TestNG.HandlingCookies.executor": "Run",
+    "TestNG.HandlingCookies.m1.executor": "Run",
     "TestNG.OrangHRM.executor": "Run",
     "TestNG.ParamTest.executor": "Run",
     "TestNG.Test1.executor": "Run",
@@ -309,7 +310,7 @@
       <recent name="C:\Users\Mohamed Imran\IdeaProjects\Ymg_18_May_26" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/Warmup/TestNg/TestNg.xml">
+  <component name="RunManager" selected="TestNG.HandlingCookies">
     <configuration name="Test11_CurrentTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PracticeZone.Test11_CurrentTime" />
       <module name="Ymg_18_May_26_Selenium_Java" />
@@ -413,6 +414,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HandlingCookies" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ymg_18_May_26_Selenium_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CookiesConcept.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CookiesConcept" />
+      <option name="MAIN_CLASS_NAME" value="CookiesConcept.HandlingCookies" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HandlingCookies.m1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ymg_18_May_26_Selenium_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CookiesConcept.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CookiesConcept" />
+      <option name="MAIN_CLASS_NAME" value="CookiesConcept.HandlingCookies" />
+      <option name="METHOD_NAME" value="m1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test1.performLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ymg_18_May_26_Selenium_Java" />
       <extension name="coverage">
@@ -431,49 +467,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2_Step3.m1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ymg_18_May_26_Selenium_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DataproviderConcept.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DataproviderConcept" />
-      <option name="MAIN_CLASS_NAME" value="DataproviderConcept.Test2_Step3" />
-      <option name="METHOD_NAME" value="m1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test9_ReadtheExcelFile.m1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ymg_18_May_26_Selenium_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Warmup.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Warmup" />
-      <option name="MAIN_CLASS_NAME" value="Warmup.Test9_ReadtheExcelFile" />
-      <option name="METHOD_NAME" value="m1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HandlingCookies" />
+        <item itemvalue="TestNG.HandlingCookies.m1" />
         <item itemvalue="TestNG.C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/Selenium_Java_TestNG_Part4/TestngExtent.xml" />
         <item itemvalue="Application.Test11_CurrentTime" />
         <item itemvalue="TestNG.Test1.performLogin" />
-        <item itemvalue="TestNG.Test2_Step3.m1" />
-        <item itemvalue="TestNG.Test9_ReadtheExcelFile.m1" />
       </list>
     </recent_temporary>
   </component>

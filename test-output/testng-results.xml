@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-25T23:08:29 IST" name="Warmup" finished-at="2026-06-25T23:09:01 IST" duration-ms="31596">
+  <suite started-at="2026-06-26T11:25:11 IST" name="Warmup" finished-at="2026-06-26T11:25:18 IST" duration-ms="7628">
     <groups>
       <group name="Master">
-        <method signature="Test10.m1()[pri:0, instance:Warmup.Test10@2a4fb17b]" name="m1" class="Warmup.Test10"/>
+        <method signature="Test10.m1()[pri:0, instance:Warmup.Test10@1bb5a082]" name="m1" class="Warmup.Test10"/>
       </group> <!-- Master -->
     </groups>
-    <test started-at="2026-06-25T23:08:29 IST" name="DemoParametertest" finished-at="2026-06-25T23:09:01 IST" duration-ms="31596">
+    <test started-at="2026-06-26T11:25:11 IST" name="DemoParametertest" finished-at="2026-06-26T11:25:18 IST" duration-ms="7628">
       <class name="Warmup.Test10">
-        <test-method is-config="true" signature="m1(java.lang.String)[pri:0, instance:Warmup.Test10@2a4fb17b]" started-at="2026-06-25T23:08:29 IST" name="m1" finished-at="2026-06-25T23:09:01 IST" duration-ms="31259" status="PASS">
+        <test-method is-config="true" signature="m1(java.lang.String)[pri:0, instance:Warmup.Test10@1bb5a082]" started-at="2026-06-26T11:25:11 IST" name="m1" finished-at="2026-06-26T11:25:18 IST" duration-ms="7150" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,7 +21,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
-        <test-method signature="m1()[pri:0, instance:Warmup.Test10@2a4fb17b]" started-at="2026-06-25T23:09:01 IST" name="m1" finished-at="2026-06-25T23:09:01 IST" duration-ms="279" status="PASS">
+        <test-method signature="m1()[pri:0, instance:Warmup.Test10@1bb5a082]" started-at="2026-06-26T11:25:18 IST" name="m1" finished-at="2026-06-26T11:25:18 IST" duration-ms="140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->

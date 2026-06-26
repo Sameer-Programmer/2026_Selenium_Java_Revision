@@ -1,8 +1,8 @@
 Extent Report
 -----
-1) ExtentSparkReporter --- Responsibile for UI of the report
+1) ExtentSparkReporter --- Responsible for UI of the report
 2) ExtentReport ---------populating common information in the Report
-(browser name, projectName--commeon Information)
+(browser name, projectName--common Information)
 3) ExtentTest ----- Creating Test case entries in the report
 
 

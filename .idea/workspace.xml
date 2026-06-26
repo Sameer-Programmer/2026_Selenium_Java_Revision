@@ -8,14 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a5f9576-082d-4bb1-b8f8-57e0c3962a4f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNg_Theory/page7_Notes_XmlFile_Structure" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Warmup/Test10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Warmup/TestNg/TestNg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Warmup/Test9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Warmup/Test9_ReadtheExcelFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/myReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/myReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_Part4/MyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_Part4/MyListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_Part4/Notes_ExtentReport" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_Part4/Notes_ExtentReport" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_Part4/Notes_Listner" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_Part4/Notes_Listner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Warmup/TestNg/TestNg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Warmup/TestNg/TestNg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,6 +239,7 @@
     "TestNG.C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/Selenium_Java_TestNG_3/TestngExtent.xml.executor": "Run",
     "TestNG.C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/Selenium_Java_TestNG_Part2/File2.xml.executor": "Run",
     "TestNG.C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/Selenium_Java_TestNG_Part2/testNg_Groups.xml.executor": "Run",
+    "TestNG.C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/Selenium_Java_TestNG_Part4/TestngExtent.xml.executor": "Run",
     "TestNG.C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/TestNgXMl_package/Test1_testNg.xml.executor": "Run",
     "TestNG.C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/TestNgXMl_package/Test_1_2_3_Squential_testng.xml.executor": "Run",
     "TestNG.C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/TestNgXMl_package/myFile.xml.executor": "Run",
@@ -386,6 +385,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/Selenium_Java_TestNG_Part4/TestngExtent.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ymg_18_May_26_Selenium_Java" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/Selenium_Java_TestNG_Part4/TestngExtent.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/Warmup/TestNg/TestNg.xml" type="TestNG" nameIsGenerated="true">
       <module name="Ymg_18_May_26_Selenium_Java" />
       <shortenClasspath name="NONE" />
@@ -400,24 +409,6 @@
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="USE_DEFAULT_REPORTERS" value="true" />
       <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test1.m1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ymg_18_May_26_Selenium_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DataproviderConcept.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DataproviderConcept" />
-      <option name="MAIN_CLASS_NAME" value="DataproviderConcept.Test1" />
-      <option name="METHOD_NAME" value="m1" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -480,11 +471,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Mohamed Imran/IdeaProjects/Ymg_18_May_26/src/test/java/Selenium_Java_TestNG_Part4/TestngExtent.xml" />
         <item itemvalue="Application.Test11_CurrentTime" />
         <item itemvalue="TestNG.Test1.performLogin" />
         <item itemvalue="TestNG.Test2_Step3.m1" />
         <item itemvalue="TestNG.Test9_ReadtheExcelFile.m1" />
-        <item itemvalue="TestNG.Test1.m1" />
       </list>
     </recent_temporary>
   </component>

@@ -144,6 +144,9 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Warmup&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;parameter name=&quot;browser&quot; value=&quot;CHROME&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Selenium_Java_TestNG_Part4.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;DemoParametertest&quot;&gt;
     &lt;groups&gt;
       &lt;run&gt;
@@ -203,12 +206,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'm1')
 data.setCell(0, 2, 'Warmup.Test10')
-data.setCell(0, 3, 279);
+data.setCell(0, 3, 140);
 window.suiteTableData['Warmup']= { tableData: data, tableDiv: 'times-div-Warmup'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 279 ms</span>
+              <span class="suite-total-time">Total running time: 140 ms</span>
               <div id="times-div-Warmup">
               </div> <!-- times-div-Warmup -->
             </div> <!-- times-div -->
@@ -241,7 +244,7 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">m1</span>
-                <span class="method-start">31276 ms</span>
+                <span class="method-start">7183 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,0 +1,29 @@
+Two Things to Remember While Using @Parameters in TestNG
+--------------------------------------------------------
+
+1. In the Test Class
+--------------------
+- Use the @Parameters annotation.
+- The parameter name should match the name in the TestNG XML file.
+- The test method must accept the parameter as an argument.
+
+Example:
+
+@Parameters({"browser"})
+@Test
+public void launchBrowser(String browser)
+
+2. In the TestNG XML File
+-------------------------
+- Define the parameter using the <parameter> tag.
+- Provide the parameter name (key) and its value.
+
+Example:
+
+<parameter name="browser" value="CHROME"></parameter>
+
+Note:
+-----
+- The parameter name in @Parameters and the name attribute in testng.xml
+must be exactly the same.
+- The method parameter (String browser) receives the value specified in the XML file.

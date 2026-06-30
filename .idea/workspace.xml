@@ -8,18 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a5f9576-082d-4bb1-b8f8-57e0c3962a4f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/FastRack_Revision/Page7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumPhase2/Test2_ThreadConcept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Warmup/Test11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Warmup/Test10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Warmup/Test10_groups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Warmup/TestNg/TestNg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Warmup/TestNg/TestNg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Warmup/DemoParametertest.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Warmup/DemoParametertest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Warmup/DemoParametertest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Warmup/DemoParametertest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Warmup.Test10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Warmup.Test10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Warmup/Test11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Warmup/Test11.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

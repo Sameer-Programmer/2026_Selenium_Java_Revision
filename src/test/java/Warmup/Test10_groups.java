@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class Test10 {
+public class Test10_groups {
     WebDriver driver;
     @Parameters("browser")
     @BeforeClass(groups = {"Master"})

@@ -12,7 +12,7 @@
             </run>
         </groups>
         <classes>
-            <class name="Warmup.Test10"></class>
+            <class name="Warmup.Test10_groups"></class>
         </classes>
     </test>
 </suite>

@@ -1,0 +1,2 @@
+POM is a design pattern,
+whereas Page Factory is a Selenium class/library used to implement POM with @FindBy annotations.

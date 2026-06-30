@@ -5,12 +5,12 @@
   <suite started-at="2026-06-26T11:25:11 IST" name="Warmup" finished-at="2026-06-26T11:25:18 IST" duration-ms="7628">
     <groups>
       <group name="Master">
-        <method signature="Test10.m1()[pri:0, instance:Warmup.Test10@1bb5a082]" name="m1" class="Warmup.Test10"/>
+        <method signature="Test10.m1()[pri:0, instance:Warmup.Test10_groups@1bb5a082]" name="m1" class="Warmup.Test10_groups"/>
       </group> <!-- Master -->
     </groups>
     <test started-at="2026-06-26T11:25:11 IST" name="DemoParametertest" finished-at="2026-06-26T11:25:18 IST" duration-ms="7628">
-      <class name="Warmup.Test10">
-        <test-method is-config="true" signature="m1(java.lang.String)[pri:0, instance:Warmup.Test10@1bb5a082]" started-at="2026-06-26T11:25:11 IST" name="m1" finished-at="2026-06-26T11:25:18 IST" duration-ms="7150" status="PASS">
+      <class name="Warmup.Test10_groups">
+        <test-method is-config="true" signature="m1(java.lang.String)[pri:0, instance:Warmup.Test10_groups@1bb5a082]" started-at="2026-06-26T11:25:11 IST" name="m1" finished-at="2026-06-26T11:25:18 IST" duration-ms="7150" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,11 +21,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
-        <test-method signature="m1()[pri:0, instance:Warmup.Test10@1bb5a082]" started-at="2026-06-26T11:25:18 IST" name="m1" finished-at="2026-06-26T11:25:18 IST" duration-ms="140" status="PASS">
+        <test-method signature="m1()[pri:0, instance:Warmup.Test10_groups@1bb5a082]" started-at="2026-06-26T11:25:18 IST" name="m1" finished-at="2026-06-26T11:25:18 IST" duration-ms="140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
-      </class> <!-- Warmup.Test10 -->
+      </class> <!-- Warmup.Test10_groups -->
     </test> <!-- DemoParametertest -->
   </suite> <!-- Warmup -->
 </testng-results>

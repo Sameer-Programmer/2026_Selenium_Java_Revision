@@ -14,5 +14,8 @@ public class Test1_SingleDimensionalArray_1 {
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));
 
+        //now i want to delete the particular Elemnt means better to convert array to list and then remove 
+        //collections concept 
+
     }
 }

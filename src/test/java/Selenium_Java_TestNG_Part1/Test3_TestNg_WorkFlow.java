@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
@@ -32,8 +33,9 @@ public class Test3_TestNg_WorkFlow {
         wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         WebElement img = driver.findElement(By.cssSelector("[alt='company-branding']"));
         wait.until(ExpectedConditions.visibilityOf(img));
-        boolean status = img.isDisplayed();
-        System.out.println(status);
+//        boolean status = img.isDisplayed();
+//        System.out.println(status);
+        Assert.assertTrue( img.isDisplayed(),"Image is Not displayed");
     }
 
     @Test(priority = 3)

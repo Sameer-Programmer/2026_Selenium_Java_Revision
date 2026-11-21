@@ -1,0 +1,45 @@
+==========================
+Apache POI - DataFormatter Notes
+==========================
+
+✔ Purpose:
+- Converts any Excel cell value into a String.
+- Returns the value exactly as displayed in Excel.
+
+Syntax:
+    DataFormatter formatter = new DataFormatter();
+    String data = formatter.formatCellValue(cell);
+
+Why use DataFormatter?
+✔ No need to check cell type (String, Number, Date, Boolean, Formula).
+✔ Prevents formatting issues (e.g., 100 instead of 100.0).
+✔ Commonly used in Selenium Excel Utility classes.
+
+Example:
+Excel Cell      Returned String
+--------------------------------
+Sameer          "Sameer"
+100             "100"
+10.5            "10.5"
+12-Aug-2026     "12-Aug-2026"
+TRUE            "TRUE"
+
+try-catch:
+try {
+    data = formatter.formatCellValue(cell);
+} catch (Exception e) {
+    data = "";
+}
+
+✔ Prevents exceptions if the cell is null or empty.
+✔ Returns an empty string instead of stopping the program.
+
+Resource Cleanup:
+    wb.close();   // Closes Workbook (releases memory)
+    fi.close();   // Closes FileInputStream (releases file)
+
+Return:
+    return data;  // Returns the formatted cell value as a String.
+
+Interview Answer:
+"DataFormatter is used to convert any Excel cell value into a String exactly as it appears in Excel, without manually checking the cell type."

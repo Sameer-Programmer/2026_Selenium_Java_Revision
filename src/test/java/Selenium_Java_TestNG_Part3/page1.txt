@@ -14,3 +14,10 @@ step3 ) passed browser name, url as parameters from xml file to setup() method
 step4 ) execute test case on chrome, firefox & Edge (serial execution)
 
 step5 ) execute test case on chrome, firefox & edge ( parallel execution)
+
+
+What is DataProvider?
+
+• DataProvider is a Method in TestNG.
+• It is used to pass Multiple Sets of Data to a Single @Test Method.
+• It supports Data-Driven Testing.

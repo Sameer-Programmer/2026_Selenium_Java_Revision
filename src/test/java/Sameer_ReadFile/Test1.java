@@ -10,7 +10,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class Test1 {
-    static void main(String[] args) throws IOException {
+   public static void main(String[] args) throws IOException {
 //        TestDataFile.xlsx
         String projectpath = System.getProperty("user.dir");
         FileInputStream file =

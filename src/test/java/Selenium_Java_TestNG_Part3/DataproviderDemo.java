@@ -28,7 +28,6 @@ public class DataproviderDemo {
 
     @DataProvider(name = "dp1", indices = {0, 3})
     public Object[][] dataProviderMethod() {
-
         Object[][] data = {
                 {"sameeridea7@gmai.com", "Sam123#"},
                 {"shaikbopr@gmal.com", "Fox345"},
@@ -37,7 +36,6 @@ public class DataproviderDemo {
                 {"1", "123.50"},
                 {"c", "true"}
         };
-
         return data;
     }
 

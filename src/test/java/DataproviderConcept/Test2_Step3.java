@@ -41,7 +41,6 @@ public class Test2_Step3 {
         }else {
             Assert.fail();
         }
-
         driver.close();
 
     }

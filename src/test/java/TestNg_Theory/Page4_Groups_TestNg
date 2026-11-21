@@ -119,3 +119,11 @@ Interview Point:
 * TestNG group names are case-sensitive.
 * "Sanity" and "sanity" are considered different groups.
 * A test method belonging to multiple groups is executed only once, even if multiple included groups match.
+
+S.No	m1	m2	m3	TestNG XML	Methods Executed
+1	Sanity	Regression	Sanity + Regression	<include name="Sanity"/>	m1, m3
+2	Sanity	Regression	Sanity + Regression	<include name="Regression"/>	m2, m3
+3	Sanity	Regression	Sanity + Regression	<exclude name="Sanity"/>	m2
+4	Sanity	Regression	Sanity + Regression	<exclude name="Regression"/>	m1
+5	Sanity	Regression	Sanity + Regression	<include name="Sanity"/> + <exclude name="Regression"/>	m1
+6	Sanity	Regression	Sanity + Regression	<include name="Regression"/> + <exclude name="Sanity"/>	m2

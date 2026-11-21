@@ -13,7 +13,7 @@ public class Test36_ReadingPropertiesFile {
         FileInputStream fis = new FileInputStream(projectPath+"\\TestData\\TestFileconfig.properties");
         properties.load(fis);
 
-String url = properties.getProperty("url");
+        String url = properties.getProperty("url");
         System.out.println(url);
 
         // want to capture onl Keys

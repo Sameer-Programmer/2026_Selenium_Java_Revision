@@ -5,7 +5,7 @@ Rules To Follpw and Remember
 
 1- Denoted by @Dataprovider before the Method
 2- Dataprovider Method Return always Data so we have to return this
-3 - Generallly we use Mainly Two Dimensinal Data like usename ,pasword so we taje the datatype as Object[][]
+3 - Generallly we use Mainly Two Dimensinal Data like usename ,pasword so we take the datatype as Object[][]
 
 
 This Below is the syntax

@@ -21,7 +21,9 @@ public class Test9_Alert_interface {
         sampleAlert.click();
 
         Alert alert = driver.switchTo().alert();
-        System.out.println(alert.getText());
+         String message1 = alert.getText();
+        System.out.println(message1);
+        Assert.assertEquals("I am an alert box!",message1);
         alert.accept();
 
 

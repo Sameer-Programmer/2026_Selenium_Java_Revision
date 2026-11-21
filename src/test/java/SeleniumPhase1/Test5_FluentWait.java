@@ -9,22 +9,36 @@ import org.openqa.selenium.support.ui.Wait;
 import java.time.Duration;
 
 public class Test5_FluentWait {
-    static void main(String[] args)  {
-        WebDriver driver = new ChromeDriver();
+   public static void main(String[] args)  {
+  WebDriver driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3)); // implicit wait - Global
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
-        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+        driver.get("https://testautomationpractice.blogspot.com/");
 
-        // Fluent
+        //ExplicitWait
+
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[normalize-space()='Data Entry Form']")));
+        WebElement nameElement = driver.findElement(By.cssSelector("#name"));
+        nameElement.sendKeys("Sameer Doing Automation");
+
+        System.out.println("success");
+
+        //Thread.sleep(10000);
+
+        //FluentWait
 
 
-        Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
+        Wait<WebDriver> wait1 = new FluentWait<>(driver)
                 .withTimeout(Duration.ofSeconds(5))
-                .pollingEvery(Duration.ofSeconds(2))
-                .ignoring(NoSuchElementException.class);  // ✅ no collection needed
-
+                .pollingEvery(Duration.ofSeconds(5))
+                .ignoring(NoSuchElementException.class);
+      WebElement emailElement =  wait1.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#email")));
+      emailElement.sendKeys("sameeridea7@gmail.com");
         driver.close();
         driver.quit();
+
 
 
     }
